@@ -1,0 +1,51 @@
+// Font Family: Roboto
+
+@include font-face('Roboto Cond', '#{$font-path}roboto/cond', normal, normal, false, 'RobotoCond');
+@include font-face('Roboto Cond Bold', '#{$font-path}roboto/cond_bold', normal, normal, false, 'RobotoCondBold');
+@include font-face('Roboto', '#{$font-path}roboto/regular');
+@include font-face('Roboto Bold', '#{$font-path}roboto/bold', normal, normal, false, 'RobotoBold');
+@include font-face('Roboto Black', '#{$font-path}roboto/black', normal, normal, false, 'RobotoBlack');
+
+@mixin Roboto($type:'regular',$size:'medium',$height:normal,$shorthand:true) {
+	$family: 'Arial, Helvetica';
+	@if $type == 'cond' {
+		$family: "'Roboto Cond'";
+	}
+	@elseif $type == 'cond_bold' {
+		$family: "'Roboto Cond Bold'";
+	}
+	@elseif $type == 'regular' {
+		$family: "Roboto";
+	}
+	@elseif $type == 'bold' {
+		$family: "'Roboto Bold'";
+	}
+	@elseif $type == 'black' {
+		$family: "'Roboto Black'";
+	}
+	@else {
+		@error "`#{$type}` not supported use [cond|cond_bold|regular|bold|black]";
+	}
+	@include font-format($family+', sans-serif', $size, $height, $shorthand);
+}
+
+.roboto {
+	
+	&-cond {
+		@include Roboto('cond', 'extend');
+		
+		b, dt, h1, h2, h3, h4, h5, h6, strong, &-bold {
+			@include Roboto('cond_bold', 'extend');
+		}
+	}
+
+	@include Roboto('regular', 'extend');
+
+	b, dt, h1, h2, h3, h4, h5, h6, strong, &-bold {
+		@include Roboto('bold', 'extend');
+	}
+	
+	&-black {
+		@include Roboto('black', 'extend');
+	}
+}

@@ -1,0 +1,656 @@
+//
+// @section Forms
+// Styling for form elements.
+//
+
+form,
+fieldset {
+	margin-bottom: $spacing;
+}
+
+fieldset {
+	border: 0;
+	padding: 0;
+}
+
+legend,
+label {
+	display: block;
+	font-weight: normal;
+	margin: 0 0 calc-em(5px);
+	padding: 0;
+}
+
+//
+// 1. Correct color not being inherited.
+//    Known issue: affects color of disabled elements.
+// 2. Correct font properties not being inherited.
+// 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+//
+button,
+input,
+optgroup,
+select,
+textarea {
+	color: lighten( $color-black, 18% );
+	font: inherit;
+	margin: 0;
+	padding: calc-em(5px);
+}
+
+//
+// Address `overflow` set to `hidden` in IE 8/9/10/11.
+//
+button {
+	overflow: visible;
+}
+
+//
+// Address inconsistent `text-transform` inheritance for `button` and `select`.
+// All other form control elements do not inherit `text-transform` values.
+// Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+// Correct `select` style inheritance in Firefox.
+//
+button,
+select {
+	text-transform: none;
+}
+
+input,
+textarea,
+select {
+	border: calc-em(1px) solid lighten( $color-gray-dark, 22% );
+	border-radius: calc-em(1px);
+	display: block;
+	line-height: 1.5;
+	margin-bottom: calc-em(19px);
+	width: 100%;
+
+	@media (min-width: $bp-medium) {
+		line-height: 1.5625;
+	}
+}
+
+label.input-inline {
+
+	&.input-checkbox,
+	&.input-radio {
+		margin-bottom: calc-em(19px);
+		padding-left: calc-em(5px);
+		padding-right: calc-em(5px);
+	}
+}
+
+//
+// Don't inherit the `font-weight` (applied by a rule above).
+// NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+//
+optgroup {
+	font-weight: bold;
+}
+
+form button,
+form .button {
+	margin-bottom: calc-em(19px);
+}
+
+textarea {
+	height: 12em;
+	overflow: auto;
+}
+
+input[type="image"],
+input[type="checkbox"],
+input[type="radio"] {
+	cursor: pointer;
+	display: inline-block;
+	height: auto;
+	margin-bottom: calc-em(5px);
+	padding: 0;
+	width: auto;
+}
+
+//
+// Fix the cursor style for Chrome's increment/decrement buttons. For certain
+// `font-size` values of the `input`, it causes the cursor style of the
+// decrement button to change from `default` to `text`.
+//
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+input,
+button,
+a.button,
+select,
+textarea {
+	// Suppress red glow that Firefox
+	// adds to form fields by default.
+	&:invalid {
+		box-shadow: none;
+	}
+
+	// Add blue glow.
+	&:focus {
+		border-color: rgba($color-input-focus, 0.8);
+		box-shadow: inset 0 calc-em(1px) calc-em(1px) rgba(0, 0, 0, 0.075), 0 0 calc-em(8px) rgba($color-input-focus, 0.6);
+		outline: 0;
+		outline: thin dotted \9;
+
+		// for Opera
+		z-index: 1;
+	}
+}
+
+input[type="file"],
+input[type="radio"],
+input[type="checkbox"] {
+	&:focus,
+	&:active {
+		box-shadow: none;
+	}
+}
+
+input[type="file"]:focus,
+input[type="checkbox"]:focus,
+select:focus {
+	outline: thin dotted;
+	outline: calc-em(5px) auto -webkit-focus-ring-color;
+	outline-offset: calc-em(-2px);
+}
+
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+
+	// Leaving out Helvetica Neue, to not throw off size="..."
+	// on inputs. Arial is more reliable, on Windows and OS X.
+	font-family: $font-form;
+
+	&[disabled] {
+		background-color: $color-gray-light;
+	}
+}
+
+button[disabled],
+input[disabled],
+select[disabled],
+select[disabled] option,
+select[disabled] optgroup,
+textarea[disabled],
+a.button_disabled {
+	box-shadow: none;
+	user-select: none;
+	color: $color-gray-dark;
+	cursor: default;
+}
+
+select option {
+	background-color: $color-select-option;
+	color: $color-white;
+}
+
+// Separate rule for Firefox.
+// Separate rule for IE, too.
+// Cannot stack with WebKit's.
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	color: $color-gray-dark;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+	color: $color-gray-dark;
+}
+
+input.placeholder_text,
+textarea.placeholder_text {
+	color: $color-gray-dark;
+}
+
+textarea,
+select[size],
+select[multiple] {
+	height: auto;
+}
+
+// Set height back to normal for Opera, WebKit
+select[size="0"],
+select[size="1"] {
+	height: 2.4em;
+}
+
+// Tweaks for Safari + Chrome.
+@media (-webkit-min-device-pixel-ratio: 0) {
+	select[size],
+	select[multiple],
+	select[multiple][size] {
+		background-image: none;
+		padding-right: 3px;
+	}
+
+	select,
+	select[size="0"],
+	select[size="1"] {
+		// Base64 encoded "images/select_arrow.gif"
+		background-image: url(data:image/png;base64,R0lGODlhDQAEAIAAAAAAAP8A/yH5BAEHAAEALAAAAAANAAQAAAILhA+hG5jMDpxvhgIAOw==);
+		background-repeat: no-repeat;
+		background-position: right center;
+		padding-right: 20px;
+	}
+
+	::-webkit-validation-bubble-message {
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #666), color-stop(1, black));
+		border: 0;
+		color: white;
+		font: normal normal normal 13px/17px $font-form-message;
+		overflow: hidden;
+		padding: 15px 15px 17px;
+		text-shadow: black 0 0 1px;
+		min-height: 16px;
+	}
+
+	::-webkit-validation-bubble-arrow,
+	::-webkit-validation-bubble-top-outer-arrow,
+	::-webkit-validation-bubble-top-inner-arrow {
+		box-shadow: none;
+		background: $color-gray-darker;
+		border-color: $color-gray-darker;
+	}
+}
+
+textarea {
+	min-height: 40px;
+	overflow: auto;
+	resize: vertical;
+	width: 100%;
+}
+
+optgroup {
+	color: black;
+	font-style: normal;
+	font-weight: normal;
+
+	// Font family repeated, for Firefox.
+	font-family: $font-form;
+
+	// Kill phantom spacing and dotted
+	// border that appears in Firefox.
+	&::-moz-focus-inner {
+		border: 0;
+		padding: 0;
+	}
+}
+
+//
+// Inline inputs
+//
+.input-inline {
+	display: inline-block;
+	vertical-align: middle;
+	width: auto;
+}
+
+
+//
+// Condensed inputs
+//
+.input-condensed {
+	padding: calc-em(1px) calc-em(5px);
+	font-size: calc-em(15px);
+}
+
+
+//
+// Search
+//
+
+//
+// Remove inner padding and search cancel button in Safari and Chrome on OS X.
+// Safari (but not Chrome) clips the cancel button when the search input has
+// padding (and `textfield` appearance).
+//
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+
+//
+// Create rounded search bar
+//
+.input-search {
+	width: 85%;
+	padding-left: calc-em(15px);
+	padding-right: calc-em(40px);
+	border-radius: calc-em(21px);
+	transition: width 300ms ease-in;
+
+	@media (min-width: $bp-medium) {
+		width: 65%;
+	}
+}
+
+
+//
+// Special styling for search icon as button
+//
+.btn-search {
+	display: inline;
+	color: $color-gray-dark;
+	border: none;
+	background: none;
+	margin-left: calc-em(-40px);
+	margin-bottom: 0;
+
+	.icon {
+		fill: $color-gray-dark;
+	}
+
+	&:hover {
+		color: darken( $color-gray-dark, 15% );
+
+		.icon {
+			fill: darken( $color-gray-dark, 15% );
+		}
+	}
+}
+
+.input {
+	&-tiny { max-width: 50px; width: 100%; }
+
+	&-small { max-width: 100px; width: 100%; }
+
+	&-medium { max-width: 150px; width: 100%; }
+
+	&-large { max-width: 200px; width: 100%; }
+
+	&-xlarge { max-width: 250px; width: 100%; }
+
+	&-xxlarge { max-width: 300px; width: 100%; }
+
+	&-radio,
+	&-checkbox,
+	&-switch {
+		position: relative;
+
+		i,
+		span {
+			cursor: pointer;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		i {
+			display: inline-block;
+			position: relative;
+			vertical-align: middle;
+		}
+
+		span {
+			padding-left: 4px;
+			user-select: none;
+		}
+
+		input {
+			left: 0;
+			position: absolute;
+			top: 0;
+			visibility: hidden;
+
+			&[disabled] ~ i,
+			&[disabled] ~ span {
+				cursor: default;
+			}
+		}
+	}
+
+	&-radio {
+
+		&:hover {
+			i:after {
+				background: rgba($color-gray-dark, .2);
+			}
+		}
+
+		i {
+			border: 1px solid $color-gray-dark;
+			height: 12px;
+			width: 12px;
+
+			&,
+			&:after {
+				border-radius: 100%;
+			}
+
+			&:after {
+				background: rgba($color-primary, 0);
+				content: '';
+				height: 8px;
+				left: 1px;
+				position: absolute;
+				top: 1px;
+				transition: background .2s;
+				width: 8px;
+			}
+		}
+
+		input {
+			&:checked ~ i:after {
+				background: $color-primary;
+			}
+		}
+	}
+
+	&-checkbox {
+
+		&:hover i {
+			border-color: darken($color-gray-dark, 12%);
+		}
+
+		i {
+			background: $color-white;
+			border: 1px solid $color-gray-dark;
+			border-radius: 3px;
+			height: 15px;
+			transition: all .2s;
+			width: 15px;
+
+			&:after,
+			&:before {
+				background: $color-primary;
+				bottom: 24%;
+				content: '';
+				height: 10px;
+				left: 40%;
+				opacity: 0;
+				position: absolute;
+				transform-origin: center bottom;
+				transition: all .2s;
+				width: 3px;
+			}
+
+			&:after {
+				margin-left: -2px;
+				transform: rotate(45deg);
+			}
+
+			&:before {
+				height: 6px;
+				transform: rotate(-45deg);
+			}
+		}
+
+		input {
+			&:checked ~ i:after,
+			&:checked ~ i:before {
+				opacity: 1;
+			}
+
+			&[disabled] ~ i {
+				border-color: $color-gray-dark;
+			}
+		}
+	}
+	
+	&-select {
+		-moz-appearance: none;
+		-moz-padding-end: 3em;
+		background-color: $color-white;
+		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAHCAYAAAAf6f3xAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAF1JREFUKJFjbOmek8XIyDCVgSTwf8avz0+yGxsb/5GmDwEYGRgYGEiznHJL4RYTbzl1LEWxmLDl1LMUw2LcllPXUqwWY1pOfUtxWgyznIGBQef3l8c51LaUgYGBAQAj/kQIxLqczwAAAABJRU5ErkJggg==);
+		background-repeat: no-repeat;
+		background-position: 100% 50%;
+		cursor: pointer;
+		text-align: left;
+		vertical-align: middle;
+		white-space: nowrap;
+
+		&:focus {
+			outline: medium none;
+		}
+	}
+
+	&-switch {
+
+		&:hover {
+
+			i {
+				background: darken($color-white, 10%);
+			}
+
+			span {
+				opacity: .8;
+			}
+		}
+
+		i {
+			background: darken($color-white, 14%);
+			border-radius: 12px;
+			height: 20px;
+			position: relative;
+			transition: all .2s;
+			width: 38px;
+
+			&:after {
+				background: $color-white;
+				border-radius: 100%;
+				content: '';
+				height: 18px;
+				left: 1px;
+				position: absolute;
+				top: 1px;
+				transition: all .2s;
+				width: 18px;
+			}
+		}
+
+		span {
+			color: $color-gray-dark;
+			font-size: 14px;
+			margin-left: -10px;
+			padding-left: 30px;
+			transition: all .2s;
+		}
+
+		input {
+			&:checked {
+				~ i {
+					background: $color-lightblue;
+
+					&:after {
+						left: calc(100% - 19px);
+					}
+				}
+			}
+
+			&[disabled] ~ i {
+				opacity: .4;
+			}
+		}
+
+		&.red input:checked ~ i {
+			background: $color-red;
+		}
+	}
+
+	&-file {
+		background: $color-lightblue;
+		color: $color-white;
+		display: block;
+		font-size: 14px;
+		font-weight: 600;
+		height: 40px;
+		line-height: 40px;
+		position: relative;
+		text-align: center;
+		width: 100%;
+
+		input,
+		&-name {
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+
+		input {
+			cursor: pointer;
+			opacity: 0;
+			z-index: 2;
+		}
+
+		&-name {
+			z-index: 1;
+		}
+	}
+
+	&-required {
+		display: block;
+		margin-bottom: 1.1875em;
+		position: relative;
+		vertical-align: middle;
+
+		&:before {
+			content: "\002A";
+			color: $color-input-error;
+			position: absolute;
+			left: -0.875em;
+			top: 0;
+		}
+	
+		input, select, textarea {
+			margin-bottom: 0;
+		}
+	}
+
+	&-inline {
+		display: inline-block;
+		margin-right: 1em;
+		
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	&-error,
+	&-error:focus {
+		border-color: rgba($color-input-error, 0.8);
+		box-shadow: inset 0 calc-em(1px) calc-em(1px) rgba(0, 0, 0, 0.075), 0 0 calc-em(8px) rgba($color-input-error, 0.6);
+	}
+}

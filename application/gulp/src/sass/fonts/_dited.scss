@@ -1,0 +1,18 @@
+// Font Family: Dited
+
+@include font-face('Dited', '#{$font-path}dited/regular', normal, normal, true, 'Dited');
+
+@mixin Dited($type:'regular', $size:normal, $height:normal, $shorthand:true) {
+	$family: 'Arial, Helvetica';
+	@if $type == 'regular' {
+		$family: "'Dited'";
+	}
+	@else {
+		@error "`#{$type}` not supported use [regular|italic|bold|bold_italic]";
+	}
+	@include font-format($family+', sans-serif', $size, $height, $shorthand);
+}
+
+.dited {
+	@include Dited('regular', 'extend');
+}

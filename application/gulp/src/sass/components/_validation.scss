@@ -1,0 +1,35 @@
+.field-validation {
+	display: block;
+	margin-bottom: calc-em(19px);
+
+	&-error {
+		color: $color-input-error;
+		display: inline-block;
+		font-size: 0.8em;
+		padding-left: 5px;
+		vertical-align: middle;
+	}
+
+	&-valid {
+		display: none;
+	}
+	
+	input, textarea, select { margin-bottom: calc-em(5px); }
+}
+
+.input-validation-error,
+.input-validation-error:focus {
+    border-color: rgba($color-input-error, 0.8);
+    box-shadow: inset 0 calc-em(1px) calc-em(1px) rgba(0, 0, 0, 0.075), 0 0 calc-em(8px) rgba($color-input-error, 0.6);
+}
+
+.validation-summary {
+
+	&-errors {
+		color: $color-input-error;
+	}
+
+	&-valid {
+		display: none;
+	}
+}

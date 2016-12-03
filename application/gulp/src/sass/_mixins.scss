@@ -1,0 +1,146 @@
+//
+//	MIXINS & FUNCTIONS
+//	A few simple Sass helpers.
+//
+
+// @font-face mixin
+// Order of the includes matters, and it is: normal, bold, italic, bold+italic.
+// http://www.smashingmagazine.com/2013/02/14/setting-weights-and-styles-at-font-face-declaration/
+// Unique Font-Family Names, Matching Weights And Styles
+// THIS IS THE RECOMMENDED METHOD FOR USING @font
+@mixin font-face($font-family, $file-path, $weight: normal, $style: normal, $woff2: false, $hash: false) {
+	@if type-of($hash) == string and $hash != 'false' and $hash != "false" and $hash != 'true' and $hash != "true" {
+		$hash: $hash;
+	}
+	@else {
+		$hash: $font-family;
+	}
+	$add: "";
+	@if bool($woff2) {
+		$add: "url('#{$file-path}.woff2') format('woff2'),";
+	}
+	@font-face {
+		font-family: $font-family;
+		font-weight: $weight;
+		font-style: $style;
+		src: url('#{$file-path}.eot');
+		src: url('#{$file-path}.eot?#iefix') format('embedded-opentype'),#{$add}url('#{$file-path}.woff') format('woff'),url('#{$file-path}.ttf') format('truetype'),url('#{$file-path}.svg##{$hash}') format('svg');
+	}
+}
+@mixin font-format($family: 'Arial, sans-serif', $size: medium, $height: normal, $shorthand: true) {
+	@if $size == extend {
+		font-family: #{$family};
+		font-style: normal;
+		font-weight: normal;
+	}
+	@else if bool($shorthand) {
+		font: normal normal normal #{$size}/#{$height} #{$family};
+	}
+	@else {
+		font-style: normal;
+		font-variant: normal;
+		font-weight: normal;
+		font-size: #{$size};
+		line-height: #{$height};
+		font-family: #{$family};
+	}
+}
+// Strip units from values
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+$em-base: 16px !default;
+// Calculate ems from pixels
+@function calc-em($px, $base: $em-base) {
+	$px: strip-unit($px);
+	@if $px == 1 {
+		@return 1px;
+	}
+	$base: strip-unit($base);
+	@return ($px / $base) * 1em;
+}
+
+// level 1-10
+@mixin opacity($level) {
+	@if $level < 1 {
+		$level: $level * 10;
+	}
+	@if $level > 10 {
+		$level: $level / 10;
+	}
+	@if $level < 1 or $level > 10 {
+		$level: 5;
+		// BAD LEVEL SET FOR MIXIN opacity
+	}
+	$ie: $level * 10;
+	$gb: $level / 10;
+	// IE 8
+	-ms-filter: unquote("progid:DXImageTransform.Microsoft.Alpha(Opacity=")
+		+ $ie
+		+ unquote(")");
+	// IE 5-7
+	filter: alpha(opacity=$ie);
+	// Netscape
+	-moz-opacity: $gb;
+	// Safari 1.x
+	-khtml-opacity: $gb;
+	// Good browsers
+	opacity: $gb;
+}
+
+// https://css-tricks.com/css3-gradients/
+@mixin linear-gradient($fromColor, $toColor) {
+  background-color: $toColor; // Fallback Color
+  background-image: -webkit-gradient(linear, left top, left bottom, from($fromColor), to($toColor)); // Saf4+, Chrome
+  background-image: -webkit-linear-gradient(top, $fromColor, $toColor); // Chrome 10+, Saf5.1+, iOS 5+
+  background-image:    -moz-linear-gradient(top, $fromColor, $toColor); // FF3.6
+  background-image:     -ms-linear-gradient(top, $fromColor, $toColor); // IE10
+  background-image:      -o-linear-gradient(top, $fromColor, $toColor); // Opera 11.10+
+  background-image:         linear-gradient(top, $fromColor, $toColor);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#{ie-hex-str($fromColor)}', EndColorStr='#{ie-hex-str($toColor)}');
+}
+
+@mixin ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+// Visually hides an element but provides access for screen readers
+@mixin visuallyhidden {
+	margin: -1px;
+	padding: 0;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	clip: rect(0, 0, 0, 0);
+	position: absolute;
+}
+
+// wrap media breakpoints
+$mobile_max: 766px !default;
+$tablet_min: 767px !default;
+$wide_min: 960px !default;
+@mixin breakpoint($point) {
+	@if $point == wide {
+		@media all and (min-width: $wide_min) { @content }
+	}
+	@else if $point == tablet {
+		@media all and (min-width: $tablet_min) { @content }
+	}
+	@else if $point == mobileonly {
+		@media all and (max-width: $mobile_max) { @content }
+	}
+	@else {
+		@error "#{$point} not supported use [wide|tablet|mobileonly]";
+	}
+}
+
+@mixin clearfix() {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}

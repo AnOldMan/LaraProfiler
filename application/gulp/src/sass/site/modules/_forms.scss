@@ -1,0 +1,83 @@
+
+.list-select {
+    @include clearfix();
+    font-family: $font-form;
+    line-height: 1.5;
+    position: relative;
+
+    @media (min-width: $bp-medium) {
+        line-height: 1.5625;
+    }
+
+    .option,
+    .selected {
+        display: block;
+    }
+
+    .current {
+        display: none;
+    }
+
+    &.initialized {
+        margin: 0 0 calc-em(19px) 0;
+        max-width: 300px;
+        
+        .current {
+            background: {
+                color: $color-white;
+                image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAHCAYAAAAf6f3xAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAF1JREFUKJFjbOmek8XIyDCVgSTwf8avz0+yGxsb/5GmDwEYGRgYGEiznHJL4RYTbzl1LEWxmLDl1LMUw2LcllPXUqwWY1pOfUtxWgyznIGBQef3l8c51LaUgYGBAQAj/kQIxLqczwAAAABJRU5ErkJggg==);
+                repeat: no-repeat;
+                position: 100% 50%;
+            }
+            border: calc-em(1px) solid lighten( $color-gray-dark, 22% );
+            border-radius: calc-em(1px);
+            cursor: pointer;
+            display: inline-block;
+            padding: calc-em(5px) 3em calc-em(5px) calc-em(5px);
+            text-align: left;
+            vertical-align: middle;
+            width: 100%;
+            white-space: nowrap;
+
+        }
+
+        .options {
+            display: none;
+        }
+    }
+
+    &.active {
+
+        .options {
+            background: $color-white;
+            border: calc-em(1px) solid lighten( $color-gray-dark, 22% );
+            display: block;
+            left: 0;
+            position: absolute;
+            top: 100%;
+            width: 100%;
+        }
+
+        .option {
+            color: lighten( $color-black, 18% );
+            font: inherit;
+            line-height: inherit;
+            padding: calc-em(5px);
+            text-decoration: none;
+
+            &:hover {
+                background-color: $color-select-option;
+                color: $color-white;
+            }
+        }
+
+        .selected {
+            color: $color-primary;
+            
+            &:hover {
+                background-color: transparent;
+                color: $color-primary;
+            }
+        }
+    }
+}

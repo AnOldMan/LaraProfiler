@@ -1,0 +1,177 @@
+.remote-form {
+	background: #000;
+
+	$form-max-width: (290px+30)*3;
+	$timer-size: 96px;
+
+	.container {
+		margin: {
+			bottom: 20px;
+			top: 20px;
+		}
+	}
+
+	.row {
+		background: #777;
+		margin: 0;
+	}
+
+	.grid-third {	
+		padding: 10px;
+	}
+
+	fieldset {
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+
+		&.radio {
+			background-color: $color-gray-light;
+			border: {
+				color: $color-gray-light $color-gray-darker $color-black $color-gray-light;
+				radius: 10px;
+				style: solid;
+				width: 1px 3px 4px 1px;
+			}
+			.input-inline {
+				margin: 5px 0;
+			}
+		}
+	}
+
+	#response {
+		margin: 10px 0 40px 0;
+		position: relative;
+	}
+
+	.message {
+		background: darken($color-gray-light, 10%);
+		border: {
+			width: 4px 1px 1px 3px;
+			style: solid;
+			color: $color-black $color-gray-light $color-gray-light $color-gray-darker;
+		}
+		color: $color-black;
+		@include Dited('regular', 'extend');
+		font-size: 24px;
+		height: 84px;
+		line-height: 28px;
+		margin: 10px auto;
+		padding: 10px;
+		width: 90%;
+	}
+
+	.timer {
+
+		background: {
+			color: #000;
+			image: url('/assets/images/timer.gif');
+			position: center center;
+			repeat: no-repeat;
+			size: $timer-size $timer-size;
+		}
+
+		font: { size: 48px; weight: bold; }
+		height: $timer-size;
+		line-height: $timer-size;
+		margin: 10px auto;
+		text-align: center;
+		width: $timer-size;
+	}
+
+	.container {
+		min-width: 290px;
+	}
+
+	@media all and (max-width: $form-max-width) {
+		.container {
+			width: 290px;
+		}
+		.grid-third {
+			margin: 0;
+			width: 100%;
+		}
+
+		.timer {
+			cursor: default;
+			left: 50%;
+			margin: 0 0 0 (0 -($timer-size / 2));
+			position: absolute;
+			top: $timer-size - 10;
+		}
+	}
+
+	button {
+		border-radius: 5px;
+		box-shadow: 0px 5px 0px 0px $color-black, 0px 10px 5px $color-gray-dark;
+		color: $color-gray-light;
+		display: inline-block;
+		font-size: 16px;
+		font-weight: bold;
+		height: 75px;
+		line-height: 75px;
+		margin: 5px;
+		padding: 0;
+		width: 75px;
+
+		&:hover,
+		&:focus {
+			color: $color-extra-light;
+			text-decoration: none;
+		}
+		&:active {
+			box-shadow: 0px 2px 0px 0px $color-black, 0px 5px 3px $color-gray-dark;
+			color: $color-gray-dark;
+		}
+	}
+
+	.btn-num,
+	.btn-sym {
+		background-color: $color-gray-dark;
+		border: 1px solid $color-gray-darker;
+		font-size: 26px;
+
+		&:hover {
+			background-color: $color-gray-darker;
+		}
+		&:active {
+			background-color: $color-gray-light;
+		}
+	}
+
+	.btn-grn {
+		background-color: $color-green;
+		border: 1px solid darken($color-green, 10%);
+
+		&:hover {
+			background-color: darken($color-green, 10%);
+		}
+		&:active {
+			background-color: lighten($color-green, 10%);
+		}
+	}
+
+	.btn-red {
+		background-color: $color-red;
+		border: 1px solid darken($color-red, 10%);
+
+		&:hover {
+			background-color: darken($color-red, 10%);
+		}
+		&:active {
+			background-color: lighten($color-red, 10%);
+		}
+	}
+
+	.btn-blu {
+		background-color: $color-primary;
+		border: 1px solid darken($color-primary, 10%);
+
+		&:hover {
+			background-color: darken($color-primary, 10%);
+		}
+		&:active {
+			background-color: lighten($color-primary, 10%);
+		}
+	}
+}

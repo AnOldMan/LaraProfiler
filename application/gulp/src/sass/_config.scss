@@ -1,0 +1,98 @@
+// @section Configuration Settings
+
+// over-ride default settings
+@import 'site/config';
+
+// Colors
+$color-primary: #0088cc !default; // med blue
+$color-blue: #0000bb !default;
+$color-lightblue: #b3d4fc !default;
+$color-purp: #990055 !default;
+$color-pink: #dd4a68 !default;
+$color-red: #dd1144 !default;
+$color-green: #377f31 !default;
+$color-burg: #880e14 !default;
+$color-gold: #dba909 !default;
+$color-yellow: #ffff00 !default;
+$color-brown: #a67f59 !default;
+
+$color-black: #272727 !default;
+$color-white: #ffffff !default;
+$color-gray-darker: #666666 !default;
+$color-gray-dark: #808080 !default;
+$color-gray-light: #e5e5e5 !default;
+$color-extra-light: #fcfcff !default;
+
+$color-input-focus: #52a8ec;
+$color-select-option: #3399ff;
+$color-input-error: #ff5750;
+
+// Breakpoints
+$bp-xsmall: 20em !default;
+$bp-small: 30em !default;
+$bp-medium: 40em !default;
+$bp-large: 60em !default;
+$bp-xlarge: 80em !default;
+
+
+// Sizing
+$font-size: 100% !default;
+$spacing: 1.5625em !default;
+$container-width: 88% !default;
+$container-max-width: 80em !default;
+
+//
+// Layout
+//
+$mobile_wrap: 300px !default;
+$mobile_gutter: 0 !default;
+$mobile_min: 320px !default;
+$mobile_max: 766px !default;
+
+$tablet_wrap: 747px !default;
+$tablet_gutter: 12px !default;
+$tablet_min: 767px !default;
+$tablet_max: 959px !default;
+
+$wide_gutter: 15px !default;
+$wide_min: 960px !default;
+
+// Grid
+$grid-margins: 1.4% !default;
+$grid-sizes: (
+	// Grid width options
+	// Add/remove grid's as needed
+	// $name: $width
+	// $name - {string} class suffix
+	// $width - {string} width of the grid
+	fourth: 25%,
+	third: 33.33333333333%,
+	half: 50%,
+	two-thirds: 66.666666666667%,
+	three-fourths: 75%,
+	full: 100%
+) !default;
+
+$grid-breakpoints: (
+	// Breakpoints at which to activate grid
+	// Add/remove breakpoints as needed
+	// ($breakpoint, $prefix-class, $include-offsets)
+	// $breakpoint - {string|variable} the breakpoint
+	// $prefix-class - {string|optional} class to be used with `.row` to activate grid
+	// $include-offsets - {boolean} if true, include offset classes at this breakpoint
+	($bp-xsmall, ".row-start-xsmall", false),
+	($bp-small, ".row-start-small", false),
+	($bp-medium, null, true),
+) !default;
+
+$grid-dynamic: (
+	// Create grid classes that vary in size at different breakpoints
+	// Add/remove classes, breakpoints, and sizes as needed
+	// ($class, $breakpoint, $width)
+	// $class - {string} the grid class
+	// $breakpoint - {string|variable} the breakpoint
+	// $width - {string|variable} width of the grid at the breakpoint
+	(".grid-dynamic", $bp-xsmall, map-get($grid-sizes, half))
+	(".grid-dynamic", $bp-small, map-get($grid-sizes, third))
+	(".grid-dynamic", $bp-medium, map-get($grid-sizes, fourth))
+) !default;

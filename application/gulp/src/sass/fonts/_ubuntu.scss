@@ -1,0 +1,115 @@
+// Font Family: Ubuntu
+
+@include font-face('Ubuntu Light', '#{$font-path}ubuntu/light', normal, normal, true, 'UbuntuLight');
+@include font-face('Ubuntu Light Italic', '#{$font-path}ubuntu/light_italic', normal, normal, true, 'UbuntuLightItalic');
+@include font-face('Ubuntu Light Bold', '#{$font-path}ubuntu/light_bold', normal, normal, true, 'UbuntuLightBold');
+@include font-face('Ubuntu Light Bold Italic', '#{$font-path}ubuntu/light_bold_italic', normal, normal, true, 'UbuntuLightBoldItalic');
+@include font-face('Ubuntu Cond', '#{$font-path}ubuntu/cond', normal, normal, true, 'UbuntuCond');
+@include font-face('Ubuntu', '#{$font-path}ubuntu/regular');
+@include font-face('Ubuntu Italic', '#{$font-path}ubuntu/italic', normal, normal, true, 'UbuntuItalic');
+@include font-face('Ubuntu Bold', '#{$font-path}ubuntu/bold', normal, normal, true, 'UbuntuBold');
+@include font-face('Ubuntu Bold Italic', '#{$font-path}ubuntu/bold_italic', normal, normal, true, 'UbuntuBoldItalic');
+@include font-face('Ubuntu Mono', '#{$font-path}ubuntu/mono', normal, normal, true, 'UbuntuMono');
+@include font-face('Ubuntu Mono Italic', '#{$font-path}ubuntu/mono_italic', normal, normal, true, 'UbuntuMonoItalic');
+@include font-face('Ubuntu Mono Bold', '#{$font-path}ubuntu/mono_bold', normal, normal, true, 'UbuntuMonoBold');
+@include font-face('Ubuntu Mono Bold Italic', '#{$font-path}ubuntu/mono_bold_italic', normal, normal, true, 'UbuntuMonoBoldItalic');
+
+@mixin Ubuntu($type:'regular', $size:normal, $height:normal, $shorthand:true) {
+	$family: 'Arial, Helvetica';
+	@if $type == 'light' {
+		$family: "'Ubuntu Light'";
+	}
+	@elseif $type == 'light_italic' {
+		$family: "'Ubuntu Light Italic'";
+	}
+	@elseif $type == 'light_bold' {
+		$family: "'Ubuntu Light Bold'";
+	}
+	@elseif $type == 'light_bold_italic' {
+		$family: "'Ubuntu Light Bold Italic'";
+	}
+	@elseif $type == 'cond' {
+		$family: "'Ubuntu Cond'";
+	}
+	@elseif $type == 'regular' {
+		$family: "Ubuntu";
+	}
+	@elseif $type == 'italic' {
+		$family: "'Ubuntu Italic'";
+	}
+	@elseif $type == 'bold' {
+		$family: "'Ubuntu Bold'";
+	}
+	@elseif $type == 'bold_italic' {
+		$family: "'Ubuntu Bold Italic'";
+	}
+	@elseif $type == 'mono' {
+		$family: "'Ubuntu Mono'";
+	}
+	@elseif $type == 'mono_italic' {
+		$family: "'Ubuntu Mono Italic'";
+	}
+	@elseif $type == 'mono_bold' {
+		$family: "'Ubuntu Mono Bold'";
+	}
+	@elseif $type == 'mono_bold_italic' {
+		$family: "'Ubuntu Mono Bold Italic'";
+	}
+	@else {
+		@error "`#{$type}` not supported use [light|light_italic|light_bold|light_bold_italic|cond|regular|italic|bold|bold_italic|mono|mono_italic|mono_bold|mono_bold_italic]";
+	}
+	@include font-format($family+', sans-serif', $size, $height, $shorthand);
+}
+
+.ubuntu {
+
+	&-light {
+		@include Ubuntu('light', 'extend');
+
+		b, dt, h1, h2, h3, h4, h5, h6, strong, &-bold {
+			@include Ubuntu('light_bold', 'extend');
+		}
+
+		i, dfn, blockquote, &-italic {
+			@include Ubuntu('light_italic', 'extend');
+		}
+
+		em, &-bold-italic {
+			@include Ubuntu('light_bold_italic', 'extend');
+		}
+	}
+
+	&-cond {
+		@include Ubuntu('cond', 'extend');
+	}
+
+	@include Ubuntu('regular', 'extend');
+
+	b, dt, h1, h2, h3, h4, h5, h6, strong, &-bold {
+		@include Ubuntu('bold', 'extend');
+	}
+
+	i, dfn, blockquote, &-italic {
+		@include Ubuntu('italic', 'extend');
+	}
+
+	em, &-bold-italic {
+		@include Ubuntu('bold_italic', 'extend');
+	}
+
+	&-mono {
+		@include Ubuntu('mono', 'extend');
+
+		b, dt, h1, h2, h3, h4, h5, h6, strong, &-bold {
+			@include Ubuntu('mono_bold', 'extend');
+		}
+
+		i, dfn, blockquote, &-italic {
+			@include Ubuntu('mono_italic', 'extend');
+		}
+
+		em, &-bold-italic {
+			@include Ubuntu('mono_bold_italic', 'extend');
+		}
+	}
+}

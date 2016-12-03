@@ -1,0 +1,62 @@
+@media (min-width: 40em) {
+    body {
+        background-image: -webkit-linear-gradient(left, #f7f7f7 0%, #f7f7f7 25%, transparent 25%, transparent 100%);
+        background-image: linear-gradient(to right, #f7f7f7 0, #f7f7f7 25%, transparent 25%, transparent 100%);
+    }
+}
+.branding-color-box {
+    border: 1px solid #808080;
+    height: 6em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    width: 6em;
+}
+.branding-font {
+    margin-bottom: 0.5em;
+}
+.webfont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.webfont ul {
+    list-style: none outside none;
+    margin: 0 0 15px 0;
+    width: 300px;
+}
+.webfont ul li {
+    padding: 0 10px 0 0;
+}
+.breakpoints {
+    display: block;
+    margin-left: 0;
+    overflow: hidden;
+}
+.breakpoints li {
+    background: #b3d4fc;
+    display: block;
+    margin: 5px 0;
+    text-align: center;
+}
+.btn-search .icon {
+    height: 1em;
+    width: 1em;
+}
+.svg .icon-fallback-text {
+    border: 0 none;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.grid-highlight {
+    background-color: #f7f7f7;
+    border: 1px solid #e5e5e5;
+    border-radius: 0.0725em;
+    margin-bottom: 1.5625em;
+    padding: 0.9375em;
+}

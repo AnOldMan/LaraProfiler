@@ -1,0 +1,19 @@
+.wrap {
+    
+    .banner {
+        text-align: center;
+
+        &-blue {
+            background-color: #2283db;
+        }
+        &-black {
+            background-color: #2a2a2a;
+        }
+        &-burg {
+            background-color: #610e15;
+        }
+        &-grey {
+            background-color: #474747;
+        }
+    }
+}

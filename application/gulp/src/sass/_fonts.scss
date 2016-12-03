@@ -1,0 +1,18 @@
+// Typographic Scale
+// (For math purposes. Actual font sizes in ems.)
+// 1px, 4px, 5px, 8px, 9px, 11px, 12px, 13px, 15px, 16px, 19px, 21px, 24px, 28px, 32px, 48px, 64px, 80px, 96px
+// line height: 1.5em on small screens, 1.5625em on big screens
+
+$font-path: 'fonts/' !default;
+
+@import 'fonts/dited';
+@import 'fonts/opensans';
+@import 'fonts/roboto';
+@import 'fonts/ubuntu';
+
+// Font Stacks
+$font-primary: "Helvetica Neue", Arial, sans-serif !default;
+$font-secondary: Georgia, Times, serif !default;
+$font-monospace: Menlo, Monaco, "Courier New", monospace !default;
+$font-form: Arial, "Liberation Sans", FreeSans, sans-serif !default;
+$font-form-message: "Lucida Grande", $font-form !default;

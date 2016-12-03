@@ -1,0 +1,91 @@
+// Font Family: Opensans
+
+@include font-face('Opensans Light', '#{$font-path}opensans/light', normal, normal, false, 'OpensansLight');
+@include font-face('Opensans Light Italic', '#{$font-path}opensans/light_italic', normal, normal, false, 'OpensansLightItalic');
+@include font-face('Opensans', '#{$font-path}opensans/regular');
+@include font-face('Opensans Italic', '#{$font-path}opensans/italic', normal, normal, false, 'OpensansItalic');
+@include font-face('Opensans Semi-Bold', '#{$font-path}opensans/semi-bold', normal, normal, false, 'OpensansSemiBold');
+@include font-face('Opensans Semi-Bold Italic', '#{$font-path}opensans/semi-bold_italic', normal, normal, false, 'OpensansSemiBoldItalic');
+@include font-face('Opensans Bold', '#{$font-path}opensans/bold', normal, normal, false, 'OpensansBold');
+@include font-face('Opensans Bold Italic', '#{$font-path}opensans/bold_italic', normal, normal, false, 'OpensansBoldItalic');
+@include font-face('Opensans Extra-Bold', '#{$font-path}opensans/extra-bold', normal, normal, false, 'OpensansExtraBold');
+@include font-face('Opensans Extra-Bold Italic', '#{$font-path}opensans/extra-bold_italic', normal, normal, false, 'OpensansExtraBoldItalic');
+
+@mixin Opensans($type:'regular', $size:normal, $height:normal, $shorthand:true) {
+	$family: 'Arial, Helvetica';
+	@if $type == 'light' {
+		$family: "'Opensans Light'";
+	}
+	@elseif $type == 'light_italic' {
+		$family: "'Opensans Light Italic'";
+	}
+	@elseif $type == 'regular' {
+		$family: "Opensans";
+	}
+	@elseif $type == 'italic' {
+		$family: "'Opensans Italic'";
+	}
+	@elseif $type == 'semi_bold' {
+		$family: "'Opensans Semi-Bold'";
+	}
+	@elseif $type == 'semi_bold_italic' {
+		$family: "'Opensans Semi-Bold Italic'";
+	}
+	@elseif $type == 'bold' {
+		$family: "'Opensans Bold'";
+	}
+	@elseif $type == 'bold_italic' {
+		$family: "'Opensans Bold Italic'";
+	}
+	@elseif $type == 'extra_bold' {
+		$family: "'Opensans Extra-Bold'";
+	}
+	@elseif $type == 'extra_bold_italic' {
+		$family: "'Opensans Extra-Bold Italic'";
+	}
+	@else {
+		@error "`#{$type}` not supported use [light|light_italic|regular|italic|semi_bold|semi_bold_italic|bold|bold_italic|extra_bold|extra_bold_italic]";
+	}
+	@include font-format($family+', sans-serif', $size, $height, $shorthand);
+}
+
+.opensans {
+
+	&-light {
+		@include Opensans('light', 'extend');
+
+		i, dfn, blockquote, &-italic {
+			@include Opensans('light_italic', 'extend');
+		}
+	}
+
+	@include Opensans('regular', 'extend');
+
+	i, dfn, blockquote, &-italic {
+		@include Opensans('italic', 'extend');
+	}
+
+	&-semi-bold {
+		@include Opensans('semi_bold', 'extend');
+
+		i, dfn, blockquote, &-italic, em {
+			@include Opensans('semi_bold_italic', 'extend');
+		}
+	}
+
+	b, dt, h1, h2, h3, h4, h5, h6, strong, &-bold {
+		@include Opensans('bold', 'extend');
+	}
+
+	em, &-bold-italic {
+		@include Opensans('bold_italic', 'extend');
+	}
+
+	&-extra-bold {
+		@include Opensans('extra_bold', 'extend');
+
+		i, dfn, blockquote, &-italic, em {
+			@include Opensans('extra_bold_italic', 'extend');
+		}
+	}
+}
