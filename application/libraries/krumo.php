@@ -44,7 +44,7 @@ class krumo
 		// get
 		if( isset( $disabled ) ) return $disabled;
 		// set
-		$disabled = empty( $_SERVER['LARAVEL_ENV'] ) || $_SERVER['LARAVEL_ENV'] != 'dev' ? true : false;
+		$disabled = empty( $_SERVER['LARAVEL_ENV'] ) || $_SERVER['LARAVEL_ENV'] == 'production' ? true : false;
 
 		return $disabled;
 	}

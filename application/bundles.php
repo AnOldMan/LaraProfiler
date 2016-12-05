@@ -34,7 +34,6 @@
 */
 
 return array(
-
-	'docs' => array('handles' => 'docs'),
-
+	'image'			=> array( 'auto' => true ),
+	'laracaptcha'	=> array( 'auto' => true, 'handles' => 'captcha' )
 );

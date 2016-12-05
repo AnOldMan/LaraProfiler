@@ -22,7 +22,8 @@
 */
 
 $environments = array(
-	'local' => array('localhost', '*.dev', '*.loc', '*.local'),
+	'local' => array('localhost'),
+	'dev' => array('*.florida.loc')
 );
 
 // --------------------------------------------------------------

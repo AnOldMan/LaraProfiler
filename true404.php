@@ -18,18 +18,27 @@ require_once( 'paths.php' );
  * IE: browser looking for /someimage.jpg - we should not be doing a ton of parsing, instantiating classes, db, ect.
  *
  */
-
-$e = explode( '.', arg(0) );
-$e = empty( $e[1] ) ? false : array_pop( $e );
-
-if( $e && in_array(
-		$e,
-		array( 'jpg', 'gif', 'png', 'svg', 'ico', 'css', 'xml', 'doc', 'docx', 'xls', 'xlsx' )
-	) )
+$e = arg('last');
+// Bundle.LaraCaptcha
+if( $e == 'captcha.jpg' )
 {
-
-	header( 'HTTP/1.0 404 Not Found' );
-	exit(0);
+	$_SERVER['REQUEST_URI'] = $e;
+}
+// Bundle.Image
+elseif( arg(1) != 'imagecache' )
+{
+	$e = explode( '.', $e );
+	$e = empty( $e[1] ) ? false : array_pop( $e );
+	
+	if( $e && in_array(
+			$e,
+			array( 'jpg', 'gif', 'png', 'svg', 'ico', 'css', 'xml', 'doc', 'docx', 'xls', 'xlsx' )
+		) )
+	{
+	print '404'; exit;
+		header( 'HTTP/1.0 404 Not Found' );
+		exit(0);
+	}
 }
 
 // NON-LARAVEL HELPER FUNCTIONS
@@ -49,6 +58,7 @@ function kpr()
 		if( file_exists( 'application/libraries/krumo.php' ) )
 		{
 			include_once( 'application/libraries/krumo.php' );
+			Krumo::disabled(false);
 		}
 	}
 

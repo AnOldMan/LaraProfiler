@@ -73,7 +73,7 @@ Event::listen('500', function($exception)
 | other filters that can be attached to individual routes.
 */
 
-
+/*
 Route::filter('before', function()
 {
 	if( Cookie::get('auth') != 'localhost' )
@@ -82,7 +82,7 @@ Route::filter('before', function()
 		else return Response::error('423');
 	}
 });
-
+*/
 /*
 Route::filter('after', function($response)
 {

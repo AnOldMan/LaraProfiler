@@ -1,19 +1,63 @@
 .wrap {
     
+    .cover {
+        width: 420px;
+    }
+    
     .banner {
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 10px 10px 0 0;
+        line-height: calc-em(30px);
         text-align: center;
+        
+        a,
+        em {
+            color: $color-white;
+            font: {
+                size: calc-em(20px);
+                style: normal;
+                weight: bold;
+            }
+            text-transform: uppercase;
+        }
+        
+        a {
+            text-decoration: none;
+            
+            &.active {
+                display: none;
+            }
+            
+            &:hover {
+                color: darken($color-white, 10%);
+            }
+        }
+        
+        img {
+            height: calc-em(30px);
+            padding-top: calc-em(5px);
+        }
 
         &-blue {
             background-color: #2283db;
+            border-color: #2283db;
         }
         &-black {
             background-color: #2a2a2a;
+            border-color: #2a2a2a;
         }
         &-burg {
             background-color: #610e15;
+            border-color: #610e15;
         }
         &-grey {
             background-color: #474747;
+            border-color: #474747;
+        }
+        
+        &-bottom {
+            border-radius: 0 0 10px 10px;
         }
     }
 }

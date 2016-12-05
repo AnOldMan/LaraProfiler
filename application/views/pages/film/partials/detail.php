@@ -20,23 +20,24 @@ foreach( array(
     }
 }
 if( ! empty( $data['media_custom'] ) ) $data['banner'][] = '<em>' . $data['media_custom'] . '</em>';
-if( empty( $data['color'] ) ) $data['color'] = 'blue';
+if( empty( $data['color'] ) ) $data['color'] = 'grey';
 
 
 
 
-
-if( $data['banner'] ) : ?>
-                <div class="banner banner-<?= $data['color'] ?>"><?php
-                    print implode( '<b>+</b>', $data['banner'] );
-                ?></div>
-<?php
-endif;
-
-print HTML::image( '/files/cover/' . $uid . 'f.jpg', 'Front' );
-print HTML::image( '/files/cover/' . $uid . 'b.jpg', 'Back' );
+$path = Config::get( 'application.files_url' ) . 'imagecache/cover/';
 
 ?>
+                <div class="cover sibling-toggle-parent">
+					<div class="banner banner-<?= $data['color'] ?>"><?= implode( '<b>+</b>', $data['banner'] ) ?></div>
+					<?= HTML::image( $path . $uid . 'b.jpg', 'Back', array( 'id' => 'cover-back', 'class' => 'sibling-toggle-target' ) ) ?>
+					<?= HTML::image( $path . $uid . 'f.jpg', 'Front', array( 'id' => 'cover-front', 'class' => 'sibling-toggle-target active' ) ) ?>
+					<div class="banner banner-bottom banner-<?= $data['color'] ?>">
+						<a class="sibling-toggle-control" href="#cover-back">Front</a>
+						<a class="sibling-toggle-control active" href="#cover-front">Back</a>
+					</div>
+				</div>
+
 <pre>
 
     [locality] => ( String, 13 characters)
