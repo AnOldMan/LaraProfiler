@@ -39,15 +39,15 @@ class Person extends Eloquent {
 
 	public function save()
 	{
-        if( empty( $this->fullname ) ) 
+		if( empty( $this->fullname ) )
 		{
 			$this->fullname = $this->firstname . ' ' . $this->middlename . ' ' . $this->lastname;
-        }
+		}
 
-        if( empty( $this->stub ) ) 
+		if( empty( $this->stub ) )
 		{
 			$this->seoStub();
-        }
+		}
 
 		parent::save();
 	}

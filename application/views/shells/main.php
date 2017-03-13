@@ -4,21 +4,21 @@ Asset::style( 'main-css', 'main.css' )
 	->script( 'main-js', 'main.js' );
 
 $title = empty( $title ) ? '' : $title;
-$heading = empty( $heading ) ? $title : $heading;
+$heading = ! isset( $heading ) ? $title : $heading;
 
-$header = empty( $header )
+$header = ! isset( $header )
 	? View::make( 'regions.header' )
 		->with( 'heading', $heading )
 		->with( 'topbar', empty( $notopbar ) )
 		->render()
 	: $header;
 
-$content = empty( $content )
+$content = ! isset( $content )
 	? View::make( 'error.404' )
 		->render()
 	: $content;
 
-$footer = empty( $footer )
+$footer = ! isset( $footer )
 	? View::make( 'regions.footer' )
 		->render()
 	: $footer;
@@ -48,14 +48,15 @@ $footer = empty( $footer )
 <?php if( ! empty( $header ) ) : ?>
 		<header class="container">
 			<section class="row">
-<?= $header ?>
+<?= htmlawed::indent( $header, 4 ) ?>
+
 			</section>
 		</header>
 <?php endif;
 	  if( ! empty( $content ) ) : ?>
 		<main class="container">
 			<section class="row">
-<?=  $content; ?>
+<?= htmlawed::indent( $content, 4 ) ?>
 
 			</section>
 		</main>
@@ -63,7 +64,8 @@ $footer = empty( $footer )
 	  if( ! empty( $footer ) ) : ?>
 		<footer class="container">
 			<section class="row">
-<?=  $footer; ?>
+<?= htmlawed::indent( $footer, 4 ) ?>
+
 			</section>
 		</footer>
 <?php endif; ?>

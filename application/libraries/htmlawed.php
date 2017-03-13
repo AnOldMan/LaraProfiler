@@ -181,7 +181,7 @@ class htmlawed
 		$out = self::law( $in, $config, $spec );
 		// remove wrapper
 		$a = explode( "\n", $out );
-		//   newline             <div>   ... ...  </div>       newline
+		//   newline			 <div>   ... ...  </div>	   newline
 		if( count($a) > 4 )
 		{
 			array_shift($a); array_shift($a); array_pop($a); array_pop($a);
@@ -491,7 +491,7 @@ class htmlawed
 	 * </code>
 	 *
 	 * @param  string  $value
-	 * @param  int     $limit
+	 * @param  int	 $limit
 	 * @param  string  $end
 	 * @return string
 	 */
@@ -574,13 +574,13 @@ class htmlawed
 	{
 		// in case string already encoded: eliminates possiblitly of double-encode
 		$string = html_entity_decode( $string, ENT_QUOTES );
-		
+
 		// strips all non UTF-8 characters from string
 		//$string = iconv( 'UTF-8', 'UTF-8//IGNORE', $string );
-		// OR encode based on DB types : 
-		// $string = mb_convert_encoding( $string, 'ISO-8859-1', 'UTF-8' ); 
+		// OR encode based on DB types :
+		// $string = mb_convert_encoding( $string, 'ISO-8859-1', 'UTF-8' );
 		// THIS may help if DB type is not working:
-		//$string = mb_convert_encoding( $string, 'HTML-ENTITIES', 'UTF-8' ); 
+		//$string = mb_convert_encoding( $string, 'HTML-ENTITIES', 'UTF-8' );
 		$string = htmlentities( $string , ENT_QUOTES, 'UTF-8');
 		return self::purify( $string );
 	}

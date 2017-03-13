@@ -13947,18 +13947,22 @@ jQuery(document).ready(function ($) {
             $this.toggleClass('active');
         });
     });
-    $('.sibling-toggle-control').each(function(){        
+    $('.tab-link').each(function(){
         var $this = $(this),
-            $parent = $this.closest('.sibling-toggle-parent');
-        $this.addClass('initialized')
-        .on('click', function(e){
+            $parent = $this.parent(),
+            $section = $parent.closest('.tab-section'),
+            $target = $($this.attr('href'));
+        if (!$section.hasClass('initialized')) {
+            $section.addClass('initialized');
+        }
+        $this.on('click', function(e){
             e && (e.preventDefault());
-            if($this.hasClass('active')){
+            if ($parent.hasClass('active')) {
                 return;
             }
-            $parent.find('.active').removeClass('active');
-            $($this.attr('href')).addClass('active');
-            $this.addClass('active');
+            $section.find('.active').removeClass('active');
+            $target.addClass('active');
+            $parent.addClass('active');
         });
     });
 });

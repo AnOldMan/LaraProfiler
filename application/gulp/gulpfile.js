@@ -29,25 +29,25 @@ gulp.task('css', function() {
 	var files = src + 'sass' + DS + '*.scss';
 	console.log('css files = ' + files);
 	console.log('css dest = ' + dest);
-    return gulp.src(files)
+	return gulp.src(files)
 		// error handling
 		.pipe(plumber())
 		// source
-        .pipe(sass({
+		.pipe(sass({
 			outputStyle: 'expanded',
 			sourceComments: true
 		}))
 		// autoprefixer
-        .pipe(autoprefixer({
+		.pipe(autoprefixer({
 			browsers: ['last 2 versions'],
 			cascade: false
 		}))
 		.pipe(gulp.dest(dest))
 		// minify-css
-        .pipe(rename(function (path) {path.basename += '.min'}))
+		.pipe(rename(function (path) {path.basename += '.min'}))
 		.pipe(cssnano())
 		// output
-        .pipe(gulp.dest(dest));
+		.pipe(gulp.dest(dest));
 });
 
 gulp.task('js', function () {
@@ -72,12 +72,12 @@ gulp.task('default', ['css','js','watch']);
 
 gulp.task('watch', function() {
   return gulp
-    // Watch the input folder for change,
-    // and run `sass` task when something happens
-    .watch(src + 'sass' + DS + '**' + DS + '*.scss', ['css'])
-    // When there is a change,
-    // log a message in the console
-    .on('change', function(event) {
-      console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
-    });
+	// Watch the input folder for change,
+	// and run `sass` task when something happens
+	.watch(src + 'sass' + DS + '**' + DS + '*.scss', ['css'])
+	// When there is a change,
+	// log a message in the console
+	.on('change', function(event) {
+	  console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+	});
 });

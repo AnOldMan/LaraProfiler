@@ -23,9 +23,9 @@ class Response extends ParentClass
 	 *		return Response::serveFileContent('<?xml?>','my_name.xml','text/xml');
 	 * </code>
 	 *
-	 * @param  string    $path
-	 * @param  string    $name
-	 * @param  array     $headers
+	 * @param  string	$path
+	 * @param  string	$name
+	 * @param  array	 $headers
 	 * @return Response
 	 */
 	public static function serveFileContent( $content, $name, $mime = '', $headers = array() )
@@ -38,13 +38,13 @@ class Response extends ParentClass
 		// us so that the developer has the chance to override any of these
 		// default headers with header values of their own liking.
 		$headers = array_merge(array(
-			'Content-Description'       => 'File Transfer',
-			'Content-Type'              => $mime,
+			'Content-Description'	   => 'File Transfer',
+			'Content-Type'			  => $mime,
 			'Content-Transfer-Encoding' => 'binary',
-			'Expires'                   => 0,
-			'Cache-Control'             => 'must-revalidate, post-check=0, pre-check=0',
-			'Pragma'                    => 'public',
-			'Content-Length'            => strlen( $content ),
+			'Expires'				   => 0,
+			'Cache-Control'			 => 'must-revalidate, post-check=0, pre-check=0',
+			'Pragma'					=> 'public',
+			'Content-Length'			=> strlen( $content ),
 		), $headers);
 
 		// Once we create the response, we need to set the content disposition
@@ -102,8 +102,8 @@ class Response extends ParentClass
 	/**
 	 * INTENDED FOR ONCE-OFF SERVING OF IMAGE RESOURCE
 	 * I.E. : $img = imagecreatetruecolor ( 50,50 );
-	 *        ...
-	 *        \Response::serveImageResource( $img, 90 );
+	 *		...
+	 *		\Response::serveImageResource( $img, 90 );
 	 *
 	 * HAS NO Etag OR ANY OTHER LAST-MODIFIED 304 OPTION[S]
 	 *
@@ -126,9 +126,9 @@ class Response extends ParentClass
 		Config::set('application.profiler', false);
 		Config::set('database.profile', false);
 
-	    ob_start();
-	    switch ( $sMimeType )
-	    {
+		ob_start();
+		switch ( $sMimeType )
+		{
 			case 'image/gif':
 				imagegif( $oImageResource );
 				break;

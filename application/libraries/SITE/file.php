@@ -8,7 +8,7 @@ class File extends ParentClass
 	public static function upload_limit( $human = true )
 	{
 		$max_upload   = self::human_to_bytes( ini_get( 'upload_max_filesize' ) );
-		$max_post     = self::human_to_bytes( ini_get( 'post_max_size' ) );
+		$max_post	 = self::human_to_bytes( ini_get( 'post_max_size' ) );
 		$memory_limit = self::human_to_bytes( ini_get( 'memory_limit' ) );
 
 		Log::upload_limit(

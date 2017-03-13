@@ -63,7 +63,7 @@ return array(
 
 		'mysql' => array(
 			'driver'   => 'mysql',
-			'host'     => 'localhost',
+			'host'	 => 'localhost',
 			'database' => 'remotes',
 			'username' => 'remotes',
 			'password' => 'remotes',

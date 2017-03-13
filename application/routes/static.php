@@ -19,8 +19,8 @@ Route::get( 'styleguide', array(
 	'as' => 'styleguide',
 	function()
 	{
-        Config::set( 'application.profiler', false );
-        Config::set( 'database.profile', false );
+		Config::set( 'application.profiler', false );
+		Config::set( 'database.profile', false );
 		return View::make('shells.main')
 			->with( 'title', 'Styleguide' )
 			->with( 'content', View::make('pages.styleguide') )

@@ -292,18 +292,18 @@ $.extend( $.validator, {
 		onkeyup: function( element, event ) {
 
 			// Avoid revalidate the field when pressing one of the following keys
-			// Shift       => 16
-			// Ctrl        => 17
-			// Alt         => 18
+			// Shift	   => 16
+			// Ctrl		=> 17
+			// Alt		 => 18
 			// Caps lock   => 20
-			// End         => 35
-			// Home        => 36
+			// End		 => 35
+			// Home		=> 36
 			// Left arrow  => 37
-			// Up arrow    => 38
+			// Up arrow	=> 38
 			// Right arrow => 39
 			// Down arrow  => 40
-			// Insert      => 45
-			// Num lock    => 144
+			// Insert	  => 45
+			// Num lock	=> 144
 			// AltGr key   => 225
 			var excludedKeys = [
 				16, 17, 18, 20, 35, 36, 37,
@@ -822,8 +822,8 @@ $.extend( $.validator, {
 		// The second parameter 'rule' used to be a string, and extended to an object literal
 		// of the following form:
 		// rule = {
-		//     method: "method name",
-		//     parameters: "the given method parameters"
+		//	 method: "method name",
+		//	 parameters: "the given method parameters"
 		// }
 		//
 		// The old behavior still supported, kept to maintain backward compatibility with

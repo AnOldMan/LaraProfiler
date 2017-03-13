@@ -29,8 +29,8 @@ Tip: GIT Bash seems to avoid this.
 2. Run command "gulp css" in Command Prompt
   If you get any errors, it is likely you failed to check out one or more of the destination files for editing, see step 1.
   If you have files checked out and get error, you can fix one of two ways:
-    * Undo changes, check out again, run compile
-    * Navigate to directory and remove read-only property that VisualStudio placed on file[s]
+	* Undo changes, check out again, run compile
+	* Navigate to directory and remove read-only property that VisualStudio placed on file[s]
 
 ## UPDATES
 

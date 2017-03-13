@@ -110,10 +110,10 @@ class Film extends Eloquent {
 
 	public function save()
 	{
-        if( empty( $this->stub ) ) 
+		if( empty( $this->stub ) )
 		{
 			$this->seoStub();
-        }
+		}
 
 		parent::save();
 	}

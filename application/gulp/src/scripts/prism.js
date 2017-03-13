@@ -1,11 +1,11 @@
 /* =============================================================
 
-    Prism v1.0
-    Lightweight, robust, elegant syntax highlighting, by Lea Verou
-    http://lea.verou.me
+	Prism v1.0
+	Lightweight, robust, elegant syntax highlighting, by Lea Verou
+	http://lea.verou.me
 
-    Licensed under MIT License.
-    http://www.opensource.org/licenses/mit-license.php/
+	Licensed under MIT License.
+	http://www.opensource.org/licenses/mit-license.php/
 
  * ============================================================= */
 

@@ -1,0 +1,47 @@
+
+.tab-section {
+
+	.tab-display {
+		margin: 1em 0;
+		@include clearfix();
+	}
+
+	.tab-controls {
+		display: none;
+		list-style: none outside none;
+		margin: 1em 0;
+		@include clearfix();
+	}
+
+	&.initialized {
+
+		.tab {
+
+			&-controls {
+				display: block;
+			}
+
+			&-control {
+				float: left;
+				margin-right: 1em;
+
+				&:last-child {
+					margin-right: 0;
+				}
+
+				&.active .tab-link {
+					color: inherit;
+					cursor: default;
+				}
+			}
+
+			&-content {
+				display: none;
+
+				&.active {
+					display: block;
+				}
+			}
+		}
+	}
+}

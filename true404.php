@@ -29,7 +29,7 @@ elseif( arg(1) != 'imagecache' )
 {
 	$e = explode( '.', $e );
 	$e = empty( $e[1] ) ? false : array_pop( $e );
-	
+
 	if( $e && in_array(
 			$e,
 			array( 'jpg', 'gif', 'png', 'svg', 'ico', 'css', 'xml', 'doc', 'docx', 'xls', 'xlsx' )
@@ -63,7 +63,7 @@ function kpr()
 	}
 
 	if( \krumo::disabled() ) return;
-	
+
 	$args = func_get_args();
 
 	\krumo::dump( count( $args ) > 1 ? $args : $args[0] );
@@ -84,8 +84,8 @@ function arg( $index = null, $path = null )
 	if( ! isset( $path ) )
 	{
 		$path = isset( $_GET['param'] ) ? $_GET['param'] : $_SERVER['REQUEST_URI'];
-	    // Strip off hash and query string
-	    $path = preg_replace( '/(#|\?).+$/', '', $path );
+		// Strip off hash and query string
+		$path = preg_replace( '/(#|\?).+$/', '', $path );
 		// trim leading/trailing
 		$path = trim( $path, '/' );
 	}

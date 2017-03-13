@@ -25,7 +25,7 @@ class Subtitle extends Eloquent {
 
 	public function set_phrase()
 	{
-		$current = $this->get_attribute( 'phrase' ); 
+		$current = $this->get_attribute( 'phrase' );
 		if( is_numeric( $current ) )
 		{
 			$this->set_attribute( 'phrase', Phrase::by_phrase( $current ) );

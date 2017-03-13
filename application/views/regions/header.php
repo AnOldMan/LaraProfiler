@@ -10,14 +10,15 @@ if( isset( $aMenu ) ) :
 					. $key . '"></span><span class="text">' . $txt . "</span></a></li>\n";
 	}
 ?>
-					<div class="logo"><a href="/"><img src="/css_js/images/shell/head/logo.png" alt="Home" title="Home" /></a></div>
-					<button id="mainnavtoggle">|||</button>
-					<ul class="nav mobile-hidden clearfix">
-<?= implode( "						<li class=\"divider\"></li>\n", $out ) ?>
-					</ul>
+<div class="logo"><a href="/"><img src="/assets/shell/logo.png" alt="Home" title="Home" /></a></div>
+<ul class="nav mobile-hidden clearfix">
+<?= implode( "	<li class=\"divider\"></li>\n", $out ) ?>
+</ul>
 <?php
 endif;
+
 if( ! empty( $heading ) ) : ?>
-				<h1><?= $heading ?></h1>
+<h1><?= $heading ?></h1>
 <?php
+
 endif;

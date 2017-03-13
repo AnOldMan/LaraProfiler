@@ -18,7 +18,7 @@ if( empty( $irport ) ) $irport = 1;
 		<?= Asset::styles() ?>
 		<?= Asset::scripts() ?>
 		<script type="text/javascript">
-			jQuery(document).ready(function ($) {                
+			jQuery(document).ready(function ($) {
 				myRemote.init($, '<?= URL::to_route( 'macro' ) ?>'<?= empty( $macro ) ? '' : ', ' . json_encode( $macro ) ?>);
 			});
 		</script>
@@ -53,7 +53,7 @@ if( empty( $irport ) ) $irport = 1;
 							<button class="btn-red" data-cmd="poweroff">OFF</button>
 							<button class="btn-blu" data-cmd="easyplay">EasyPlay</button>
 						</fieldset>
-						<fieldset>            
+						<fieldset>
 							<button class="btn-num" data-cmd="number1">1</button>
 							<button class="btn-num" data-cmd="number2">2</button>
 							<button class="btn-num" data-cmd="number3">3</button>

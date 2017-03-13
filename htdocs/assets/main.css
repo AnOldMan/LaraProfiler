@@ -6,7 +6,7 @@
   src: url("fonts/dited/regular.eot?#iefix") format("embedded-opentype"), url('fonts/dited/regular.woff2') format('woff2'),url("fonts/dited/regular.woff") format("woff"), url("fonts/dited/regular.ttf") format("truetype"), url("fonts/dited/regular.svg#Dited") format("svg");
 }
 
-/* line 16, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_dited.scss */
+/* line 16, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_dited.scss */
 .dited {
   font-family: 'Dited', sans-serif;
   font-style: normal;
@@ -93,70 +93,70 @@
   src: url("fonts/opensans/extra-bold_italic.eot?#iefix") format("embedded-opentype"), url("fonts/opensans/extra-bold_italic.woff") format("woff"), url("fonts/opensans/extra-bold_italic.ttf") format("truetype"), url("fonts/opensans/extra-bold_italic.svg#OpensansExtraBoldItalic") format("svg");
 }
 
-/* line 52, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_opensans.scss */
+/* line 52, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_opensans.scss */
 .opensans {
   font-family: Opensans, sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 54, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_opensans.scss */
+/* line 54, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_opensans.scss */
 .opensans-light {
   font-family: 'Opensans Light', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 57, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_opensans.scss */
+/* line 57, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_opensans.scss */
 .opensans-light i, .opensans-light dfn, .opensans-light blockquote, .opensans-light-italic {
   font-family: 'Opensans Light Italic', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 64, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_opensans.scss */
+/* line 64, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_opensans.scss */
 .opensans i, .opensans dfn, .opensans blockquote, .opensans-italic {
   font-family: 'Opensans Italic', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 68, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_opensans.scss */
+/* line 68, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_opensans.scss */
 .opensans-semi-bold {
   font-family: 'Opensans Semi-Bold', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 71, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_opensans.scss */
+/* line 71, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_opensans.scss */
 .opensans-semi-bold i, .opensans-semi-bold dfn, .opensans-semi-bold blockquote, .opensans-semi-bold-italic, .opensans-semi-bold em {
   font-family: 'Opensans Semi-Bold Italic', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 76, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_opensans.scss */
+/* line 76, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_opensans.scss */
 .opensans b, .opensans dt, .opensans h1, .opensans h2, .opensans h3, .opensans h4, .opensans h5, .opensans h6, .opensans strong, .opensans-bold {
   font-family: 'Opensans Bold', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 80, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_opensans.scss */
+/* line 80, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_opensans.scss */
 .opensans em, .opensans-bold-italic {
   font-family: 'Opensans Bold Italic', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 84, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_opensans.scss */
+/* line 84, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_opensans.scss */
 .opensans-extra-bold {
   font-family: 'Opensans Extra-Bold', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 87, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_opensans.scss */
+/* line 87, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_opensans.scss */
 .opensans-extra-bold i, .opensans-extra-bold dfn, .opensans-extra-bold blockquote, .opensans-extra-bold-italic, .opensans-extra-bold em {
   font-family: 'Opensans Extra-Bold Italic', sans-serif;
   font-style: normal;
@@ -203,35 +203,35 @@
   src: url("fonts/roboto/black.eot?#iefix") format("embedded-opentype"), url("fonts/roboto/black.woff") format("woff"), url("fonts/roboto/black.ttf") format("truetype"), url("fonts/roboto/black.svg#RobotoBlack") format("svg");
 }
 
-/* line 32, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_roboto.scss */
+/* line 32, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_roboto.scss */
 .roboto {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 34, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_roboto.scss */
+/* line 34, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_roboto.scss */
 .roboto-cond {
   font-family: 'Roboto Cond', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 37, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_roboto.scss */
+/* line 37, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_roboto.scss */
 .roboto-cond b, .roboto-cond dt, .roboto-cond h1, .roboto-cond h2, .roboto-cond h3, .roboto-cond h4, .roboto-cond h5, .roboto-cond h6, .roboto-cond strong, .roboto-cond-bold {
   font-family: 'Roboto Cond Bold', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 44, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_roboto.scss */
+/* line 44, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_roboto.scss */
 .roboto b, .roboto dt, .roboto h1, .roboto h2, .roboto h3, .roboto h4, .roboto h5, .roboto h6, .roboto strong, .roboto-bold {
   font-family: 'Roboto Bold', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 48, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_roboto.scss */
+/* line 48, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_roboto.scss */
 .roboto-black {
   font-family: 'Roboto Black', sans-serif;
   font-style: normal;
@@ -342,91 +342,91 @@
   src: url("fonts/ubuntu/mono_bold_italic.eot?#iefix") format("embedded-opentype"), url('fonts/ubuntu/mono_bold_italic.woff2') format('woff2'),url("fonts/ubuntu/mono_bold_italic.woff") format("woff"), url("fonts/ubuntu/mono_bold_italic.ttf") format("truetype"), url("fonts/ubuntu/mono_bold_italic.svg#UbuntuMonoBoldItalic") format("svg");
 }
 
-/* line 64, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_ubuntu.scss */
+/* line 64, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_ubuntu.scss */
 .ubuntu {
   font-family: Ubuntu, sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 66, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_ubuntu.scss */
+/* line 66, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_ubuntu.scss */
 .ubuntu-light {
   font-family: 'Ubuntu Light', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 69, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_ubuntu.scss */
+/* line 69, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_ubuntu.scss */
 .ubuntu-light b, .ubuntu-light dt, .ubuntu-light h1, .ubuntu-light h2, .ubuntu-light h3, .ubuntu-light h4, .ubuntu-light h5, .ubuntu-light h6, .ubuntu-light strong, .ubuntu-light-bold {
   font-family: 'Ubuntu Light Bold', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 73, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_ubuntu.scss */
+/* line 73, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_ubuntu.scss */
 .ubuntu-light i, .ubuntu-light dfn, .ubuntu-light blockquote, .ubuntu-light-italic {
   font-family: 'Ubuntu Light Italic', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 77, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_ubuntu.scss */
+/* line 77, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_ubuntu.scss */
 .ubuntu-light em, .ubuntu-light-bold-italic {
   font-family: 'Ubuntu Light Bold Italic', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 82, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_ubuntu.scss */
+/* line 82, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_ubuntu.scss */
 .ubuntu-cond {
   font-family: 'Ubuntu Cond', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 88, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_ubuntu.scss */
+/* line 88, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_ubuntu.scss */
 .ubuntu b, .ubuntu dt, .ubuntu h1, .ubuntu h2, .ubuntu h3, .ubuntu h4, .ubuntu h5, .ubuntu h6, .ubuntu strong, .ubuntu-bold {
   font-family: 'Ubuntu Bold', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 92, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_ubuntu.scss */
+/* line 92, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_ubuntu.scss */
 .ubuntu i, .ubuntu dfn, .ubuntu blockquote, .ubuntu-italic {
   font-family: 'Ubuntu Italic', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 96, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_ubuntu.scss */
+/* line 96, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_ubuntu.scss */
 .ubuntu em, .ubuntu-bold-italic {
   font-family: 'Ubuntu Bold Italic', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 100, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_ubuntu.scss */
+/* line 100, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_ubuntu.scss */
 .ubuntu-mono {
   font-family: 'Ubuntu Mono', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 103, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_ubuntu.scss */
+/* line 103, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_ubuntu.scss */
 .ubuntu-mono b, .ubuntu-mono dt, .ubuntu-mono h1, .ubuntu-mono h2, .ubuntu-mono h3, .ubuntu-mono h4, .ubuntu-mono h5, .ubuntu-mono h6, .ubuntu-mono strong, .ubuntu-mono-bold {
   font-family: 'Ubuntu Mono Bold', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 107, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_ubuntu.scss */
+/* line 107, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_ubuntu.scss */
 .ubuntu-mono i, .ubuntu-mono dfn, .ubuntu-mono blockquote, .ubuntu-mono-italic {
   font-family: 'Ubuntu Mono Italic', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 111, R:/var/www/laraprofiler/application/gulp/src/sass/fonts/_ubuntu.scss */
+/* line 111, C:/wamp/www/remotes/application/gulp/src/sass/fonts/_ubuntu.scss */
 .ubuntu-mono em, .ubuntu-mono-bold-italic {
   font-family: 'Ubuntu Mono Bold Italic', sans-serif;
   font-style: normal;
@@ -453,17 +453,17 @@
   zoom: 1.0;
 }
 
-/* line 21, R:/var/www/laraprofiler/application/gulp/src/sass/components/_normalize.scss */
+/* line 21, C:/wamp/www/remotes/application/gulp/src/sass/components/_normalize.scss */
 html {
   box-sizing: border-box;
 }
 
-/* line 24, R:/var/www/laraprofiler/application/gulp/src/sass/components/_normalize.scss */
+/* line 24, C:/wamp/www/remotes/application/gulp/src/sass/components/_normalize.scss */
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* line 34, R:/var/www/laraprofiler/application/gulp/src/sass/components/_normalize.scss */
+/* line 34, C:/wamp/www/remotes/application/gulp/src/sass/components/_normalize.scss */
 html {
   font-family: "Opensans", sans-serif;
   overflow-y: scroll;
@@ -472,12 +472,12 @@ html {
   text-size-adjust: 100%;
 }
 
-/* line 43, R:/var/www/laraprofiler/application/gulp/src/sass/components/_normalize.scss */
+/* line 43, C:/wamp/www/remotes/application/gulp/src/sass/components/_normalize.scss */
 body {
   margin: 0;
 }
 
-/* line 53, R:/var/www/laraprofiler/application/gulp/src/sass/components/_normalize.scss */
+/* line 53, C:/wamp/www/remotes/application/gulp/src/sass/components/_normalize.scss */
 article,
 aside,
 cite,
@@ -495,7 +495,7 @@ summary {
   display: block;
 }
 
-/* line 74, R:/var/www/laraprofiler/application/gulp/src/sass/components/_normalize.scss */
+/* line 74, C:/wamp/www/remotes/application/gulp/src/sass/components/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -504,43 +504,43 @@ video {
   vertical-align: baseline;
 }
 
-/* line 86, R:/var/www/laraprofiler/application/gulp/src/sass/components/_normalize.scss */
+/* line 86, C:/wamp/www/remotes/application/gulp/src/sass/components/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 94, R:/var/www/laraprofiler/application/gulp/src/sass/components/_normalize.scss */
+/* line 94, C:/wamp/www/remotes/application/gulp/src/sass/components/_normalize.scss */
 img,
 video {
   max-width: 100%;
   height: auto;
 }
 
-/* line 104, R:/var/www/laraprofiler/application/gulp/src/sass/components/_normalize.scss */
+/* line 104, C:/wamp/www/remotes/application/gulp/src/sass/components/_normalize.scss */
 iframe,
 object,
 embed {
   max-width: 100%;
 }
 
-/* line 121, R:/var/www/laraprofiler/application/gulp/src/sass/components/_normalize.scss */
+/* line 121, C:/wamp/www/remotes/application/gulp/src/sass/components/_normalize.scss */
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
 
-/* line 129, R:/var/www/laraprofiler/application/gulp/src/sass/components/_normalize.scss */
+/* line 129, C:/wamp/www/remotes/application/gulp/src/sass/components/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 136, R:/var/www/laraprofiler/application/gulp/src/sass/components/_normalize.scss */
+/* line 136, C:/wamp/www/remotes/application/gulp/src/sass/components/_normalize.scss */
 figure {
   margin: 0;
 }
 
-/* line 9, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+/* line 9, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -548,13 +548,13 @@ figure {
   width: 88%;
 }
 
-/* line 16, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+/* line 16, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
 .row {
   margin-left: -1.4%;
   margin-right: -1.4%;
 }
 
-/* line 21, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+/* line 21, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
 .grid-fourth, .grid-third, .grid-half, .grid-two-thirds, .grid-three-fourths, .grid-full, .grid-dynamic {
   float: left;
   padding-left: 1.4%;
@@ -562,138 +562,138 @@ figure {
   width: 100%;
 }
 
-/* line 38, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+/* line 38, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
 .grid-flip {
   float: right;
 }
 
 @media (min-width: 20em) {
-  /* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 49, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .row-start-xsmall .grid-fourth {
     width: 25%;
   }
-  /* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 49, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .row-start-xsmall .grid-third {
     width: 33.33333%;
   }
-  /* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 49, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .row-start-xsmall .grid-half {
     width: 50%;
   }
-  /* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 49, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .row-start-xsmall .grid-two-thirds {
     width: 66.66667%;
   }
-  /* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 49, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .row-start-xsmall .grid-three-fourths {
     width: 75%;
   }
-  /* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 49, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .row-start-xsmall .grid-full {
     width: 100%;
   }
 }
 
 @media (min-width: 30em) {
-  /* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 49, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .row-start-small .grid-fourth {
     width: 25%;
   }
-  /* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 49, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .row-start-small .grid-third {
     width: 33.33333%;
   }
-  /* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 49, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .row-start-small .grid-half {
     width: 50%;
   }
-  /* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 49, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .row-start-small .grid-two-thirds {
     width: 66.66667%;
   }
-  /* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 49, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .row-start-small .grid-three-fourths {
     width: 75%;
   }
-  /* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 49, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .row-start-small .grid-full {
     width: 100%;
   }
 }
 
 @media (min-width: 40em) {
-  /* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 49, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .grid-fourth {
     width: 25%;
   }
-  /* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 49, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .grid-third {
     width: 33.33333%;
   }
-  /* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 49, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .grid-half {
     width: 50%;
   }
-  /* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 49, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .grid-two-thirds {
     width: 66.66667%;
   }
-  /* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 49, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .grid-three-fourths {
     width: 75%;
   }
-  /* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 49, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .grid-full {
     width: 100%;
   }
-  /* line 55, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 55, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .offset-fourth {
     margin-left: 25%;
   }
-  /* line 55, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 55, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .offset-third {
     margin-left: 33.33333%;
   }
-  /* line 55, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 55, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .offset-half {
     margin-left: 50%;
   }
-  /* line 55, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 55, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .offset-two-thirds {
     margin-left: 66.66667%;
   }
-  /* line 55, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 55, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .offset-three-fourths {
     margin-left: 75%;
   }
-  /* line 55, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 55, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .offset-full {
     margin-left: 100%;
   }
 }
 
 @media (min-width: 20em) {
-  /* line 71, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 71, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .grid-dynamic {
     width: 50%;
   }
 }
 
 @media (min-width: 30em) {
-  /* line 71, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 71, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .grid-dynamic {
     width: 33.33333%;
   }
 }
 
 @media (min-width: 40em) {
-  /* line 71, R:/var/www/laraprofiler/application/gulp/src/sass/components/_grid.scss */
+  /* line 71, C:/wamp/www/remotes/application/gulp/src/sass/components/_grid.scss */
   .grid-dynamic {
     width: 25%;
   }
 }
 
-/* line 6, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 6, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 body {
   background: #ffffff;
   color: #272727;
@@ -703,18 +703,18 @@ body {
 }
 
 @media (min-width: 40em) {
-  /* line 6, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+  /* line 6, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
   body {
     line-height: 1.5625;
   }
 }
 
-/* line 18, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 18, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 p {
   margin: 0 0 1.5625em;
 }
 
-/* line 27, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 27, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 a, .link-block-styled {
   background-color: transparent;
   color: #0088cc;
@@ -722,7 +722,7 @@ a, .link-block-styled {
   word-wrap: break-word;
 }
 
-/* line 37, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 37, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 a:active, .link-block-styled:active,
 a:hover,
 .link-block-styled:hover,
@@ -730,7 +730,7 @@ a:hover,
   outline: 0;
 }
 
-/* line 42, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 42, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 a:hover, .link-block-styled:hover, .link-block:hover .link-block-styled,
 a:focus,
 .link-block-styled:focus,
@@ -740,27 +740,27 @@ a:active,
   text-decoration: underline;
 }
 
-/* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 49, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 a img, .link-block-styled img {
   border: none;
   background: none;
 }
 
-/* line 59, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 59, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 a.link-block, .link-block.link-block-styled {
   color: #272727;
   display: block;
   text-decoration: none;
 }
 
-/* line 78, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 78, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 ul,
 ol {
   margin: 0 0 1.5625em 2em;
   padding: 0;
 }
 
-/* line 84, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 84, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 ul ul,
 ul ol,
 ol ol,
@@ -768,30 +768,30 @@ ol ul {
   margin-bottom: 0;
 }
 
-/* line 91, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 91, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 dl,
 dd {
   margin: 0;
   padding: 0;
 }
 
-/* line 97, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 97, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 dd {
   margin-bottom: 1.5625em;
 }
 
-/* line 101, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 101, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 dt {
   font-weight: bold;
 }
 
-/* line 109, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 109, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 .list-unstyled {
   margin-left: 0;
   list-style: none;
 }
 
-/* line 118, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 118, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 .list-inline {
   list-style: none;
   margin-left: -0.5em;
@@ -799,14 +799,14 @@ dt {
   padding: 0;
 }
 
-/* line 125, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 125, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 .list-inline > li {
   display: inline;
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
 
-/* line 137, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 137, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   line-height: 1.2;
@@ -815,7 +815,7 @@ h1, h2, h3, h4, h5, h6 {
   word-wrap: break-word;
 }
 
-/* line 145, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 145, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 h1,
 .h1 {
   font-size: 1.5em;
@@ -823,32 +823,32 @@ h1,
 }
 
 @media (min-width: 40em) {
-  /* line 145, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+  /* line 145, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
   h1,
   .h1 {
     font-size: 1.75em;
   }
 }
 
-/* line 155, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 155, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 h2,
 .h2 {
   font-size: 1.3125em;
 }
 
-/* line 160, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 160, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 h3,
 .h3 {
   font-size: 1.1875em;
 }
 
-/* line 165, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 165, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 h4, h5, h6,
 .h4, .h5, .h6 {
   font-size: 1em;
 }
 
-/* line 174, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 174, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 hr {
   margin: 2em auto;
   border: 0;
@@ -856,39 +856,39 @@ hr {
   border-bottom: 0 solid #ffffff;
 }
 
-/* line 181, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 181, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 186, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 186, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 i,
 em {
   font-style: italic;
 }
 
-/* line 194, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 194, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 201, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 201, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 208, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 208, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 mark {
   background: #ff0;
 }
 
-/* line 215, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 215, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 small {
   font-size: 80%;
 }
 
-/* line 222, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 222, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 sub,
 sup {
   font-size: 75%;
@@ -897,17 +897,17 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 230, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 230, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 234, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 234, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 243, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 243, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 blockquote {
   font-size: 1.1875em;
   font-style: italic;
@@ -916,20 +916,20 @@ blockquote {
   padding-right: 0.84211em;
 }
 
-/* line 250, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 250, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 blockquote cite {
   color: #808080;
   font-size: 0.84211em;
   padding-top: 1em;
 }
 
-/* line 257, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 257, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 blockquote,
 q {
   quotes: none;
 }
 
-/* line 262, R:/var/www/laraprofiler/application/gulp/src/sass/components/_typography.scss */
+/* line 262, C:/wamp/www/remotes/application/gulp/src/sass/components/_typography.scss */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -937,7 +937,7 @@ q:after {
   content: '';
 }
 
-/* line 6, R:/var/www/laraprofiler/application/gulp/src/sass/components/_code.scss */
+/* line 6, C:/wamp/www/remotes/application/gulp/src/sass/components/_code.scss */
 code,
 kbd,
 pre,
@@ -947,14 +947,14 @@ samp {
   font-size: 0.875em;
 }
 
-/* line 15, R:/var/www/laraprofiler/application/gulp/src/sass/components/_code.scss */
+/* line 15, C:/wamp/www/remotes/application/gulp/src/sass/components/_code.scss */
 code {
   background-color: #f7f7f7;
   color: #dd1144;
   padding: 0.25em;
 }
 
-/* line 21, R:/var/www/laraprofiler/application/gulp/src/sass/components/_code.scss */
+/* line 21, C:/wamp/www/remotes/application/gulp/src/sass/components/_code.scss */
 pre {
   background-color: #f4f4f4;
   display: block;
@@ -968,7 +968,7 @@ pre {
   word-break: break-all;
 }
 
-/* line 32, R:/var/www/laraprofiler/application/gulp/src/sass/components/_code.scss */
+/* line 32, C:/wamp/www/remotes/application/gulp/src/sass/components/_code.scss */
 pre code {
   background-color: transparent;
   border: 0;
@@ -977,7 +977,7 @@ pre code {
   padding: 0;
 }
 
-/* line 10, R:/var/www/laraprofiler/application/gulp/src/sass/components/_buttons.scss */
+/* line 10, C:/wamp/www/remotes/application/gulp/src/sass/components/_buttons.scss */
 .btn {
   background-color: #0088cc;
   border: 1px solid #0088cc;
@@ -992,7 +992,7 @@ pre code {
   padding: 0.5em 0.6875em;
 }
 
-/* line 23, R:/var/www/laraprofiler/application/gulp/src/sass/components/_buttons.scss */
+/* line 23, C:/wamp/www/remotes/application/gulp/src/sass/components/_buttons.scss */
 .btn:hover,
 a .btn:hover, .link-block-styled .btn:hover, .btn:focus,
 a .btn:focus, .link-block-styled .btn:focus, .btn:active,
@@ -1003,13 +1003,13 @@ a .btn:active, .link-block-styled .btn:active, .btn.active {
   text-decoration: none;
 }
 
-/* line 41, R:/var/www/laraprofiler/application/gulp/src/sass/components/_buttons.scss */
+/* line 41, C:/wamp/www/remotes/application/gulp/src/sass/components/_buttons.scss */
 .btn-secondary {
   background-color: #808080;
   border-color: #808080;
 }
 
-/* line 45, R:/var/www/laraprofiler/application/gulp/src/sass/components/_buttons.scss */
+/* line 45, C:/wamp/www/remotes/application/gulp/src/sass/components/_buttons.scss */
 .btn-secondary:hover,
 a .btn-secondary:hover, .link-block-styled .btn-secondary:hover, .btn-secondary:focus,
 a .btn-secondary:focus, .link-block-styled .btn-secondary:focus, .btn-secondary:active,
@@ -1018,14 +1018,14 @@ a .btn-secondary:active, .link-block-styled .btn-secondary:active, .btn-secondar
   border-color: #5a5a5a;
 }
 
-/* line 61, R:/var/www/laraprofiler/application/gulp/src/sass/components/_buttons.scss */
+/* line 61, C:/wamp/www/remotes/application/gulp/src/sass/components/_buttons.scss */
 .btn:active,
 .btn.active {
   box-shadow: inset 0 0.15625em 0.25em rgba(0, 0, 0, 0.15), 0 1px 0.15625em rgba(0, 0, 0, 0.05);
   outline: 0;
 }
 
-/* line 71, R:/var/www/laraprofiler/application/gulp/src/sass/components/_buttons.scss */
+/* line 71, C:/wamp/www/remotes/application/gulp/src/sass/components/_buttons.scss */
 .btn.disabled,
 .btn[disabled] {
   box-shadow: none;
@@ -1034,14 +1034,14 @@ a .btn-secondary:active, .link-block-styled .btn-secondary:active, .btn-secondar
   pointer-events: none;
 }
 
-/* line 83, R:/var/www/laraprofiler/application/gulp/src/sass/components/_buttons.scss */
+/* line 83, C:/wamp/www/remotes/application/gulp/src/sass/components/_buttons.scss */
 .btn-large {
   font-size: 1em;
   line-height: normal;
   padding: 0.6875em 0.9375em;
 }
 
-/* line 93, R:/var/www/laraprofiler/application/gulp/src/sass/components/_buttons.scss */
+/* line 93, C:/wamp/www/remotes/application/gulp/src/sass/components/_buttons.scss */
 .btn-block,
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
@@ -1053,7 +1053,7 @@ input[type="button"].btn-block {
   width: 100%;
 }
 
-/* line 108, R:/var/www/laraprofiler/application/gulp/src/sass/components/_buttons.scss */
+/* line 108, C:/wamp/www/remotes/application/gulp/src/sass/components/_buttons.scss */
 .btn,
 button,
 html input[type="button"],
@@ -1065,25 +1065,25 @@ input[type="submit"] {
   -webkit-appearance: none;
 }
 
-/* line 129, R:/var/www/laraprofiler/application/gulp/src/sass/components/_buttons.scss */
+/* line 129, C:/wamp/www/remotes/application/gulp/src/sass/components/_buttons.scss */
 .btn:last-child,
 input.btn {
   margin-right: 0;
 }
 
-/* line 6, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 6, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 form,
 fieldset {
   margin-bottom: 1.5625em;
 }
 
-/* line 11, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 11, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 fieldset {
   border: 0;
   padding: 0;
 }
 
-/* line 16, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 16, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 legend,
 label {
   display: block;
@@ -1092,7 +1092,7 @@ label {
   padding: 0;
 }
 
-/* line 30, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 30, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 button,
 input,
 optgroup,
@@ -1104,18 +1104,18 @@ textarea {
   padding: 0.3125em;
 }
 
-/* line 44, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 44, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 button {
   overflow: visible;
 }
 
-/* line 54, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 54, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 59, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 59, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 input,
 textarea,
 select {
@@ -1128,7 +1128,7 @@ select {
 }
 
 @media (min-width: 40em) {
-  /* line 59, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+  /* line 59, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
   input,
   textarea,
   select {
@@ -1136,31 +1136,31 @@ select {
   }
 }
 
-/* line 76, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 76, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 label.input-inline.input-checkbox, label.input-inline.input-radio {
   margin-bottom: 1.1875em;
   padding-left: 0.3125em;
   padding-right: 0.3125em;
 }
 
-/* line 88, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 88, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 optgroup {
   font-weight: bold;
 }
 
-/* line 92, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 92, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 form button,
 form .button {
   margin-bottom: 1.1875em;
 }
 
-/* line 97, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 97, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 textarea {
   height: 12em;
   overflow: auto;
 }
 
-/* line 102, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 102, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 input[type="image"],
 input[type="checkbox"],
 input[type="radio"] {
@@ -1172,13 +1172,13 @@ input[type="radio"] {
   width: auto;
 }
 
-/* line 118, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 118, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/* line 130, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 130, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 input:invalid,
 button:invalid,
 a.button:invalid,
@@ -1188,7 +1188,7 @@ textarea:invalid {
   box-shadow: none;
 }
 
-/* line 135, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 135, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 input:focus,
 button:focus,
 a.button:focus,
@@ -1202,7 +1202,7 @@ textarea:focus {
   z-index: 1;
 }
 
-/* line 149, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 149, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 input[type="file"]:focus, input[type="file"]:active,
 input[type="radio"]:focus,
 input[type="radio"]:active,
@@ -1211,7 +1211,7 @@ input[type="checkbox"]:active {
   box-shadow: none;
 }
 
-/* line 155, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 155, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 input[type="file"]:focus,
 input[type="checkbox"]:focus,
 select:focus {
@@ -1220,7 +1220,7 @@ select:focus {
   outline-offset: -0.125em;
 }
 
-/* line 163, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 163, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 textarea,
 select,
 input[type="date"],
@@ -1239,7 +1239,7 @@ input[type="week"] {
   font-family: Arial, "Opensans", sans-serif;
 }
 
-/* line 183, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 183, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 textarea[disabled],
 select[disabled],
 input[type="date"][disabled],
@@ -1258,7 +1258,7 @@ input[type="week"][disabled] {
   background-color: #e5e5e5;
 }
 
-/* line 188, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 188, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 button[disabled],
 input[disabled],
 select[disabled],
@@ -1276,52 +1276,52 @@ a.button_disabled,
   cursor: default;
 }
 
-/* line 201, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 201, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 select option {
   background-color: #3399ff;
   color: #ffffff;
 }
 
-/* line 209, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 209, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   color: #808080;
 }
 
-/* line 214, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 214, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 input:-moz-placeholder,
 textarea:-moz-placeholder {
   color: #808080;
 }
 
-/* line 219, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 219, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 input.placeholder_text,
 textarea.placeholder_text {
   color: #808080;
 }
 
-/* line 224, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 224, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 textarea,
 select[size],
 select[multiple] {
   height: auto;
 }
 
-/* line 231, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 231, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 select[size="0"],
 select[size="1"] {
   height: 2.4em;
 }
 
 @media (-webkit-min-device-pixel-ratio: 0) {
-  /* line 238, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+  /* line 238, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
   select[size],
   select[multiple],
   select[multiple][size] {
     background-image: none;
     padding-right: 3px;
   }
-  /* line 245, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+  /* line 245, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
   select,
   select[size="0"],
   select[size="1"] {
@@ -1330,7 +1330,7 @@ select[size="1"] {
     background-position: right center;
     padding-right: 20px;
   }
-  /* line 255, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+  /* line 255, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
   ::-webkit-validation-bubble-message {
     box-shadow: none;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #666), color-stop(1, black));
@@ -1342,7 +1342,7 @@ select[size="1"] {
     text-shadow: black 0 0 1px;
     min-height: 16px;
   }
-  /* line 268, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+  /* line 268, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
   ::-webkit-validation-bubble-arrow,
   ::-webkit-validation-bubble-top-outer-arrow,
   ::-webkit-validation-bubble-top-inner-arrow {
@@ -1352,7 +1352,7 @@ select[size="1"] {
   }
 }
 
-/* line 277, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 277, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 textarea {
   min-height: 40px;
   overflow: auto;
@@ -1360,7 +1360,7 @@ textarea {
   width: 100%;
 }
 
-/* line 284, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 284, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 optgroup {
   color: black;
   font-style: normal;
@@ -1368,32 +1368,32 @@ optgroup {
   font-family: Arial, "Opensans", sans-serif;
 }
 
-/* line 294, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 294, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 optgroup::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 303, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 303, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-inline {
   display: inline-block;
   vertical-align: middle;
   width: auto;
 }
 
-/* line 313, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 313, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-condensed {
   padding: 1px 0.3125em;
   font-size: 0.9375em;
 }
 
-/* line 328, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 328, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 337, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 337, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-search {
   width: 85%;
   padding-left: 0.9375em;
@@ -1403,13 +1403,13 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 @media (min-width: 40em) {
-  /* line 337, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+  /* line 337, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
   .input-search {
     width: 65%;
   }
 }
 
-/* line 353, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 353, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .btn-search {
   display: inline;
   color: #808080;
@@ -1419,63 +1419,63 @@ input[type="search"]::-webkit-search-decoration {
   margin-bottom: 0;
 }
 
-/* line 361, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 361, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .btn-search .icon {
   fill: #808080;
 }
 
-/* line 365, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 365, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .btn-search:hover {
   color: #5a5a5a;
 }
 
-/* line 368, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 368, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .btn-search:hover .icon {
   fill: #5a5a5a;
 }
 
-/* line 375, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 375, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-tiny {
   max-width: 50px;
   width: 100%;
 }
 
-/* line 377, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 377, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-small {
   max-width: 100px;
   width: 100%;
 }
 
-/* line 379, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 379, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-medium {
   max-width: 150px;
   width: 100%;
 }
 
-/* line 381, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 381, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-large {
   max-width: 200px;
   width: 100%;
 }
 
-/* line 383, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 383, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-xlarge {
   max-width: 250px;
   width: 100%;
 }
 
-/* line 385, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 385, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-xxlarge {
   max-width: 300px;
   width: 100%;
 }
 
-/* line 387, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 387, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-radio, .input-checkbox, .input-switch {
   position: relative;
 }
 
-/* line 392, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 392, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-radio i,
 .input-radio span, .input-checkbox i,
 .input-checkbox span, .input-switch i,
@@ -1485,14 +1485,14 @@ input[type="search"]::-webkit-search-decoration {
   vertical-align: middle;
 }
 
-/* line 399, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 399, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-radio i, .input-checkbox i, .input-switch i {
   display: inline-block;
   position: relative;
   vertical-align: middle;
 }
 
-/* line 405, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 405, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-radio span, .input-checkbox span, .input-switch span {
   padding-left: 4px;
   -webkit-user-select: none;
@@ -1501,7 +1501,7 @@ input[type="search"]::-webkit-search-decoration {
   user-select: none;
 }
 
-/* line 410, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 410, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-radio input, .input-checkbox input, .input-switch input {
   left: 0;
   position: absolute;
@@ -1509,7 +1509,7 @@ input[type="search"]::-webkit-search-decoration {
   visibility: hidden;
 }
 
-/* line 416, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 416, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-radio input[disabled] ~ i,
 .input-radio input[disabled] ~ span, .input-checkbox input[disabled] ~ i,
 .input-checkbox input[disabled] ~ span, .input-switch input[disabled] ~ i,
@@ -1517,24 +1517,24 @@ input[type="search"]::-webkit-search-decoration {
   cursor: default;
 }
 
-/* line 426, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 426, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-radio:hover i:after {
   background: rgba(128, 128, 128, 0.2);
 }
 
-/* line 431, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 431, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-radio i {
   border: 1px solid #808080;
   height: 12px;
   width: 12px;
 }
 
-/* line 436, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 436, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-radio i, .input-radio i:after {
   border-radius: 100%;
 }
 
-/* line 441, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 441, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-radio i:after {
   background: rgba(0, 136, 204, 0);
   content: '';
@@ -1546,17 +1546,17 @@ input[type="search"]::-webkit-search-decoration {
   width: 8px;
 }
 
-/* line 454, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 454, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-radio input:checked ~ i:after {
   background: #0088cc;
 }
 
-/* line 462, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 462, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-checkbox:hover i {
   border-color: #616161;
 }
 
-/* line 466, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 466, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-checkbox i {
   background: #ffffff;
   border: 1px solid #808080;
@@ -1566,7 +1566,7 @@ input[type="search"]::-webkit-search-decoration {
   width: 15px;
 }
 
-/* line 474, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 474, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-checkbox i:after, .input-checkbox i:before {
   background: #0088cc;
   bottom: 24%;
@@ -1580,30 +1580,30 @@ input[type="search"]::-webkit-search-decoration {
   width: 3px;
 }
 
-/* line 488, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 488, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-checkbox i:after {
   margin-left: -2px;
   transform: rotate(45deg);
 }
 
-/* line 493, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 493, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-checkbox i:before {
   height: 6px;
   transform: rotate(-45deg);
 }
 
-/* line 500, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 500, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-checkbox input:checked ~ i:after,
 .input-checkbox input:checked ~ i:before {
   opacity: 1;
 }
 
-/* line 505, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 505, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-checkbox input[disabled] ~ i {
   border-color: #808080;
 }
 
-/* line 511, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 511, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-select {
   -moz-appearance: none;
   -moz-padding-end: 3em;
@@ -1617,22 +1617,22 @@ input[type="search"]::-webkit-search-decoration {
   white-space: nowrap;
 }
 
-/* line 523, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 523, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-select:focus {
   outline: medium none;
 }
 
-/* line 532, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 532, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-switch:hover i {
   background: #e6e6e6;
 }
 
-/* line 536, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 536, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-switch:hover span {
   opacity: .8;
 }
 
-/* line 541, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 541, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-switch i {
   background: #dbdbdb;
   border-radius: 12px;
@@ -1642,7 +1642,7 @@ input[type="search"]::-webkit-search-decoration {
   width: 38px;
 }
 
-/* line 549, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 549, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-switch i:after {
   background: #ffffff;
   border-radius: 100%;
@@ -1655,7 +1655,7 @@ input[type="search"]::-webkit-search-decoration {
   width: 18px;
 }
 
-/* line 562, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 562, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-switch span {
   color: #808080;
   font-size: 14px;
@@ -1664,27 +1664,27 @@ input[type="search"]::-webkit-search-decoration {
   transition: all .2s;
 }
 
-/* line 572, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 572, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-switch input:checked ~ i {
   background: #b3d4fc;
 }
 
-/* line 575, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 575, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-switch input:checked ~ i:after {
   left: calc(100% - 19px);
 }
 
-/* line 581, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 581, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-switch input[disabled] ~ i {
   opacity: .4;
 }
 
-/* line 586, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 586, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-switch.red input:checked ~ i {
   background: #dd1144;
 }
 
-/* line 591, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 591, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-file {
   background: #b3d4fc;
   color: #ffffff;
@@ -1698,7 +1698,7 @@ input[type="search"]::-webkit-search-decoration {
   width: 100%;
 }
 
-/* line 603, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 603, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-file input, .input-file-name {
   height: 100%;
   left: 0;
@@ -1707,19 +1707,19 @@ input[type="search"]::-webkit-search-decoration {
   width: 100%;
 }
 
-/* line 612, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 612, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-file input {
   cursor: pointer;
   opacity: 0;
   z-index: 2;
 }
 
-/* line 618, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 618, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-file-name {
   z-index: 1;
 }
 
-/* line 623, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 623, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-required {
   display: block;
   margin-bottom: 1.1875em;
@@ -1727,7 +1727,7 @@ input[type="search"]::-webkit-search-decoration {
   vertical-align: middle;
 }
 
-/* line 629, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 629, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-required:before {
   content: "\002A";
   color: #ff5750;
@@ -1736,35 +1736,35 @@ input[type="search"]::-webkit-search-decoration {
   top: 0;
 }
 
-/* line 637, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 637, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-required input, .input-required select, .input-required textarea {
   margin-bottom: 0;
 }
 
-/* line 642, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 642, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-inline {
   display: inline-block;
   margin-right: 1em;
 }
 
-/* line 646, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 646, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-inline:last-child {
   margin-right: 0;
 }
 
-/* line 651, R:/var/www/laraprofiler/application/gulp/src/sass/components/_forms.scss */
+/* line 651, C:/wamp/www/remotes/application/gulp/src/sass/components/_forms.scss */
 .input-error, .input-error:focus {
   border-color: rgba(255, 87, 80, 0.8);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0.5em rgba(255, 87, 80, 0.6);
 }
 
-/* line 1, R:/var/www/laraprofiler/application/gulp/src/sass/components/_validation.scss */
+/* line 1, C:/wamp/www/remotes/application/gulp/src/sass/components/_validation.scss */
 .field-validation {
   display: block;
   margin-bottom: 1.1875em;
 }
 
-/* line 5, R:/var/www/laraprofiler/application/gulp/src/sass/components/_validation.scss */
+/* line 5, C:/wamp/www/remotes/application/gulp/src/sass/components/_validation.scss */
 .field-validation-error {
   color: #ff5750;
   display: inline-block;
@@ -1773,34 +1773,34 @@ input[type="search"]::-webkit-search-decoration {
   vertical-align: middle;
 }
 
-/* line 13, R:/var/www/laraprofiler/application/gulp/src/sass/components/_validation.scss */
+/* line 13, C:/wamp/www/remotes/application/gulp/src/sass/components/_validation.scss */
 .field-validation-valid {
   display: none;
 }
 
-/* line 17, R:/var/www/laraprofiler/application/gulp/src/sass/components/_validation.scss */
+/* line 17, C:/wamp/www/remotes/application/gulp/src/sass/components/_validation.scss */
 .field-validation input, .field-validation textarea, .field-validation select {
   margin-bottom: 0.3125em;
 }
 
-/* line 20, R:/var/www/laraprofiler/application/gulp/src/sass/components/_validation.scss */
+/* line 20, C:/wamp/www/remotes/application/gulp/src/sass/components/_validation.scss */
 .input-validation-error,
 .input-validation-error:focus {
   border-color: rgba(255, 87, 80, 0.8);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0.5em rgba(255, 87, 80, 0.6);
 }
 
-/* line 28, R:/var/www/laraprofiler/application/gulp/src/sass/components/_validation.scss */
+/* line 28, C:/wamp/www/remotes/application/gulp/src/sass/components/_validation.scss */
 .validation-summary-errors {
   color: #ff5750;
 }
 
-/* line 32, R:/var/www/laraprofiler/application/gulp/src/sass/components/_validation.scss */
+/* line 32, C:/wamp/www/remotes/application/gulp/src/sass/components/_validation.scss */
 .validation-summary-valid {
   display: none;
 }
 
-/* line 12, R:/var/www/laraprofiler/application/gulp/src/sass/components/_svg.scss */
+/* line 12, C:/wamp/www/remotes/application/gulp/src/sass/components/_svg.scss */
 .icon {
   display: inline-block;
   fill: currentColor;
@@ -1808,13 +1808,13 @@ input[type="search"]::-webkit-search-decoration {
   width: 0;
 }
 
-/* line 18, R:/var/www/laraprofiler/application/gulp/src/sass/components/_svg.scss */
+/* line 18, C:/wamp/www/remotes/application/gulp/src/sass/components/_svg.scss */
 .svg .icon {
   height: 1em;
   width: 1em;
 }
 
-/* line 6, R:/var/www/laraprofiler/application/gulp/src/sass/components/_tables.scss */
+/* line 6, C:/wamp/www/remotes/application/gulp/src/sass/components/_tables.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -1823,56 +1823,56 @@ table {
   width: 100%;
 }
 
-/* line 14, R:/var/www/laraprofiler/application/gulp/src/sass/components/_tables.scss */
+/* line 14, C:/wamp/www/remotes/application/gulp/src/sass/components/_tables.scss */
 th,
 td {
   text-align: left;
   padding: 0.5em;
 }
 
-/* line 20, R:/var/www/laraprofiler/application/gulp/src/sass/components/_tables.scss */
+/* line 20, C:/wamp/www/remotes/application/gulp/src/sass/components/_tables.scss */
 th {
   border-bottom: 0.125em solid #e5e5e5;
   font-weight: bold;
   vertical-align: bottom;
 }
 
-/* line 27, R:/var/www/laraprofiler/application/gulp/src/sass/components/_tables.scss */
+/* line 27, C:/wamp/www/remotes/application/gulp/src/sass/components/_tables.scss */
 td {
   border-top: 1px solid #e5e5e5;
   vertical-align: top;
 }
 
-/* line 35, R:/var/www/laraprofiler/application/gulp/src/sass/components/_tables.scss */
+/* line 35, C:/wamp/www/remotes/application/gulp/src/sass/components/_tables.scss */
 .table-striped tbody tr:nth-child(odd) {
   background-color: #f7f7f7;
 }
 
-/* line 43, R:/var/www/laraprofiler/application/gulp/src/sass/components/_tables.scss */
+/* line 43, C:/wamp/www/remotes/application/gulp/src/sass/components/_tables.scss */
 .table-condensed th,
 .table-condensed td {
   padding: 0.25em;
 }
 
 @media (max-width: 40em) {
-  /* line 57, R:/var/www/laraprofiler/application/gulp/src/sass/components/_tables.scss */
+  /* line 57, C:/wamp/www/remotes/application/gulp/src/sass/components/_tables.scss */
   .table-responsive thead {
     display: none;
     visibility: hidden;
   }
-  /* line 62, R:/var/www/laraprofiler/application/gulp/src/sass/components/_tables.scss */
+  /* line 62, C:/wamp/www/remotes/application/gulp/src/sass/components/_tables.scss */
   .table-responsive tr {
     border-top: 1px solid #ededed;
     display: block;
     padding: 0.5em;
   }
-  /* line 68, R:/var/www/laraprofiler/application/gulp/src/sass/components/_tables.scss */
+  /* line 68, C:/wamp/www/remotes/application/gulp/src/sass/components/_tables.scss */
   .table-responsive td {
     border: 0;
     display: block;
     padding: 0.25em;
   }
-  /* line 73, R:/var/www/laraprofiler/application/gulp/src/sass/components/_tables.scss */
+  /* line 73, C:/wamp/www/remotes/application/gulp/src/sass/components/_tables.scss */
   .table-responsive td:before {
     content: attr(data-label);
     display: block;
@@ -1880,7 +1880,7 @@ td {
   }
 }
 
-/* line 2, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 2, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 code[class*="language-"],
 pre[class*="language-"] {
   color: #272727;
@@ -1899,7 +1899,7 @@ pre[class*="language-"] {
   hyphens: none;
 }
 
-/* line 17, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 17, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 pre[class*="language-"]::-moz-selection,
 pre[class*="language-"]::-moz-selection,
 code[class*="language-"]::-moz-selection,
@@ -1915,7 +1915,7 @@ code[class*="language-"]::-moz-selection {
   background: #b3d4fc;
 }
 
-/* line 25, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 25, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 pre[class*="language-"] ::-moz-selection,
 pre[class*="language-"] ::-moz-selection,
 code[class*="language-"] ::-moz-selection,
@@ -1932,21 +1932,21 @@ code[class*="language-"] ::-moz-selection {
 }
 
 @media print {
-  /* line 34, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+  /* line 34, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
   code[class*="language-"],
   pre[class*="language-"] {
     text-shadow: none;
   }
 }
 
-/* line 41, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 41, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 pre[class*="language-"] {
   padding: 1em;
   margin: .5em 0;
   overflow: auto;
 }
 
-/* line 46, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 46, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
   background: #fcfcff;
@@ -1955,19 +1955,19 @@ pre[class*="language-"] {
   border-width: 1px 2px 2px 1px;
 }
 
-/* line 55, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 55, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 :not(pre) > code[class*="language-"] {
   padding: .1em;
   border-radius: .3em;
 }
 
-/* line 59, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 59, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 pre[data-line] {
   position: relative;
   padding: 1em 0 1em 3em;
 }
 
-/* line 64, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 64, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .line-highlight {
   position: absolute;
   left: 0;
@@ -1981,7 +1981,7 @@ pre[data-line] {
   white-space: pre;
 }
 
-/* line 77, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 77, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .line-highlight:before,
 .line-highlight[data-end]:after {
   content: attr(data-start);
@@ -2003,14 +2003,14 @@ pre[data-line] {
   box-shadow: 0 1px white;
 }
 
-/* line 98, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 98, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .line-highlight[data-end]:after {
   content: attr(data-end);
   top: auto;
   bottom: .4em;
 }
 
-/* line 104, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 104, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 pre.line-numbers {
   counter-reset: linenumber;
   overflow-y: hidden;
@@ -2019,12 +2019,12 @@ pre.line-numbers {
   position: relative;
 }
 
-/* line 111, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 111, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 pre.line-numbers > code {
   position: relative;
 }
 
-/* line 115, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 115, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 pre.line-numbers .line-numbers-rows {
   position: absolute;
   pointer-events: none;
@@ -2040,14 +2040,14 @@ pre.line-numbers .line-numbers-rows {
   user-select: none;
 }
 
-/* line 126, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 126, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 pre.line-numbers .line-numbers-rows > span {
   pointer-events: none;
   display: block;
   counter-increment: linenumber;
 }
 
-/* line 131, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 131, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 pre.line-numbers .line-numbers-rows > span:before {
   content: counter(linenumber);
   color: #808080;
@@ -2056,225 +2056,225 @@ pre.line-numbers .line-numbers-rows > span:before {
   text-align: right;
 }
 
-/* line 142, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 142, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .style .token.string {
   color: #a67f59;
 }
 
-/* line 146, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 146, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .token.comment, .token.prolog, .token.doctype, .token.cdata {
   color: slategray;
 }
 
-/* line 151, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 151, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .token.punctuation {
   color: #808080;
 }
 
-/* line 153, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 153, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .token.property, .token.tag, .token.boolean, .token.number, .token.constant, .token.symbol, .token.deleted {
   color: #990055;
 }
 
-/* line 161, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 161, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .token.selector, .token.attr-name, .token.string, .token.char, .token.builtin, .token.inserted {
   color: #377f31;
 }
 
-/* line 168, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 168, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .token.operator, .token.entity, .token.url {
   color: #a67f59;
 }
 
-/* line 172, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 172, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .token.atrule, .token.attr-value, .token.keyword {
   color: #0000bb;
 }
 
-/* line 176, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 176, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .token.function {
   color: #dd4a68;
 }
 
-/* line 178, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 178, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .token.regex, .token.important, .token.variable {
   color: #dba909;
 }
 
-/* line 182, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 182, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .token.important, .token.bold {
   font-weight: bold;
 }
 
-/* line 185, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 185, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .token.italic {
   font-style: italic;
 }
 
-/* line 187, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 187, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .token.entity {
   cursor: help;
 }
 
-/* line 194, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 194, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-php .token.keyword, .language-php .token.boolean, language-markup .token.keyword, language-markup .token.boolean {
   color: #0000bb;
 }
 
-/* line 197, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 197, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-php .token.number, language-markup .token.number {
   color: #dd1144;
 }
 
-/* line 199, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 199, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-php .token.string, language-markup .token.string {
   color: #377f31;
 }
 
-/* line 201, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 201, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-php .token.comment, language-markup .token.comment {
   color: #666666;
 }
 
-/* line 203, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 203, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-php .token.variable, language-markup .token.variable {
   color: #880e14;
 }
 
-/* line 205, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 205, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-php .token.property, .language-php .token.tag, .language-php .token.constant, .language-php .token.symbol, .language-php .token.deleted, .language-php .token.punctuation, .language-php .token.operator, .language-php .token.function, .language-php .token.title, language-markup .token.property, language-markup .token.tag, language-markup .token.constant, language-markup .token.symbol, language-markup .token.deleted, language-markup .token.punctuation, language-markup .token.operator, language-markup .token.function, language-markup .token.title {
   color: #272727;
 }
 
-/* line 221, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 221, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-aspnet .token.doctype {
   color: #880e14;
 }
 
-/* line 223, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 223, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-aspnet .token.comment {
   color: #377f31;
 }
 
-/* line 229, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 229, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-aspnet .tag .tag,
 .language-aspnet .tag .page-directive,
 .language-aspnet .tag .namespace {
   color: #880e14;
 }
 
-/* line 233, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 233, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-aspnet .tag .attr-name {
   color: #dd1144;
 }
 
-/* line 235, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 235, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-aspnet .tag .punctuation,
 .language-aspnet .tag .attr-value {
   color: #0000bb;
 }
 
-/* line 238, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 238, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-aspnet .tag .directive {
   color: #272727;
 }
 
-/* line 240, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 240, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-aspnet .tag .directive .directive {
   background: #ffff00;
 }
 
-/* line 248, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 248, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-csharp .token.keyword {
   color: #0000bb;
 }
 
-/* line 250, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 250, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-csharp .token.comment {
   color: #377f31;
 }
 
-/* line 252, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 252, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-csharp .token.string {
   color: #880e14;
 }
 
-/* line 254, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 254, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-csharp .token.punctuation, .language-csharp .token.function {
   color: #272727;
 }
 
-/* line 263, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 263, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-javascript .token.keyword, .language-javascript .token.boolean {
   color: #0000bb;
 }
 
-/* line 266, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 266, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-javascript .token.number {
   color: #dd1144;
 }
 
-/* line 268, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 268, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-javascript .token.string {
   color: #377f31;
 }
 
-/* line 270, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 270, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-javascript .token.comment {
   color: #666666;
 }
 
-/* line 272, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 272, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-javascript .token.variable {
   color: #880e14;
 }
 
-/* line 274, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 274, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-javascript .token.property, .language-javascript .token.tag, .language-javascript .token.constant, .language-javascript .token.symbol, .language-javascript .token.deleted, .language-javascript .token.punctuation, .language-javascript .token.operator, .language-javascript .token.function, .language-javascript .token.title {
   color: #272727;
 }
 
-/* line 286, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 286, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 code.language-css {
   color: #377f31;
 }
 
-/* line 289, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 289, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-css .token {
   color: #272727;
 }
 
-/* line 292, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 292, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-css .token.string {
   color: #a67f59;
 }
 
-/* line 294, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 294, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-css .token.punctuation {
   color: #272727;
 }
 
-/* line 296, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 296, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-css .token.selector {
   color: #0000bb;
 }
 
-/* line 298, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 298, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-css .token.property {
   color: #dd1144;
 }
 
-/* line 300, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 300, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 .language-css .token.comment {
   color: #666666;
 }
 
-/* line 304, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 304, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 pre.language-bash {
   border-width: 0;
 }
 
-/* line 306, R:/var/www/laraprofiler/application/gulp/src/sass/components/_prism.scss */
+/* line 306, C:/wamp/www/remotes/application/gulp/src/sass/components/_prism.scss */
 pre.language-bash,
 code.language-bash,
 .language-bash .token {
@@ -2282,157 +2282,157 @@ code.language-bash,
   color: #ffffff;
 }
 
-/* line 11, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 11, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .text-small {
   font-size: 0.9375em;
 }
 
-/* line 15, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 15, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .text-xsmall {
   font-size: 0.6875em;
 }
 
-/* line 19, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 19, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .text-large {
   font-size: 1.1875em;
   line-height: 1.4;
 }
 
 @media (min-width: 40em) {
-  /* line 19, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+  /* line 19, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
   .text-large {
     font-size: 1.3125em;
   }
 }
 
-/* line 28, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 28, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .text-xlarge {
   font-size: 1.5625em;
   line-height: 1.4;
 }
 
 @media (min-width: 40em) {
-  /* line 28, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+  /* line 28, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
   .text-xlarge {
     font-size: 1.6875em;
   }
 }
 
-/* line 42, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 42, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .text-muted {
   color: #808080;
 }
 
-/* line 51, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 51, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 55, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 55, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 59, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 59, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .text-left {
   text-align: left;
 }
 
 @media (min-width: 40em) {
-  /* line 64, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+  /* line 64, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
   .text-right-medium {
     text-align: right;
   }
 }
 
-/* line 74, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 74, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .float-left {
   float: left;
 }
 
-/* line 78, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 78, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .float-center {
   float: none;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 84, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 84, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .float-right {
   float: right;
 }
 
-/* line 93, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 93, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .no-margin-top {
   margin-top: 0;
 }
 
-/* line 97, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 97, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .no-margin-bottom {
   margin-bottom: 0;
 }
 
-/* line 101, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 101, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .margin-top {
   margin-top: 1.5625em;
 }
 
-/* line 105, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 105, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .margin-bottom {
   margin-bottom: 1.5625em;
 }
 
-/* line 109, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 109, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .margin-bottom-small {
   margin-bottom: 0.5em;
 }
 
-/* line 113, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 113, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .margin-bottom-large {
   margin-bottom: 2em;
 }
 
-/* line 122, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 122, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .no-padding-top {
   padding-top: 0;
 }
 
-/* line 126, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 126, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .no-padding-bottom {
   padding-bottom: 0;
 }
 
-/* line 130, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 130, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .padding-top {
   padding-top: 1.5625em;
 }
 
-/* line 134, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 134, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .padding-top-small {
   padding-top: 0.5em;
 }
 
-/* line 138, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 138, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .padding-top-large {
   padding-top: 2em;
 }
 
-/* line 142, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 142, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .padding-bottom {
   padding-bottom: 1.5625em;
 }
 
-/* line 146, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 146, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .padding-bottom-small {
   padding-bottom: 0.5em;
 }
 
-/* line 150, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 150, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .padding-bottom-large {
   padding-bottom: 2em;
 }
 
-/* line 164, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 164, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .screen-reader, .svg .icon-fallback-text {
   border: 0;
   clip: rect(0 0 0 0);
@@ -2444,7 +2444,7 @@ code.language-bash,
   width: 1px;
 }
 
-/* line 180, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 180, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 .screen-reader-focusable:active,
 .screen-reader-focusable:focus {
   clip: auto;
@@ -2455,13 +2455,13 @@ code.language-bash,
   width: auto;
 }
 
-/* line 195, R:/var/www/laraprofiler/application/gulp/src/sass/components/_overrides.scss */
+/* line 195, C:/wamp/www/remotes/application/gulp/src/sass/components/_overrides.scss */
 [hidden], template {
   display: none;
   visibility: hidden;
 }
 
-/* line 141, R:/var/www/laraprofiler/application/gulp/src/sass/_mixins.scss */
+/* line 141, C:/wamp/www/remotes/application/gulp/src/sass/_mixins.scss */
 .group:after,
 .clearfix:after,
 .container:after,
@@ -2472,7 +2472,7 @@ code.language-bash,
 }
 
 @media print {
-  /* line 13, R:/var/www/laraprofiler/application/gulp/src/sass/components/_print.scss */
+  /* line 13, C:/wamp/www/remotes/application/gulp/src/sass/components/_print.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -2482,55 +2482,55 @@ code.language-bash,
   @page {
     margin: 0.5cm;
   }
-  /* line 30, R:/var/www/laraprofiler/application/gulp/src/sass/components/_print.scss */
+  /* line 30, C:/wamp/www/remotes/application/gulp/src/sass/components/_print.scss */
   a, .link-block-styled,
   a:visited,
   .link-block-styled:visited {
     text-decoration: underline;
   }
-  /* line 38, R:/var/www/laraprofiler/application/gulp/src/sass/components/_print.scss */
+  /* line 38, C:/wamp/www/remotes/application/gulp/src/sass/components/_print.scss */
   a[href]:after, [href].link-block-styled:after {
     content: " (" attr(href) ")";
   }
-  /* line 45, R:/var/www/laraprofiler/application/gulp/src/sass/components/_print.scss */
+  /* line 45, C:/wamp/www/remotes/application/gulp/src/sass/components/_print.scss */
   a[href^="#"]:after, [href^="#"].link-block-styled:after {
     content: "";
   }
-  /* line 52, R:/var/www/laraprofiler/application/gulp/src/sass/components/_print.scss */
+  /* line 52, C:/wamp/www/remotes/application/gulp/src/sass/components/_print.scss */
   p,
   h1, h2, h3 {
     orphans: 3;
     widows: 3;
   }
-  /* line 61, R:/var/www/laraprofiler/application/gulp/src/sass/components/_print.scss */
+  /* line 61, C:/wamp/www/remotes/application/gulp/src/sass/components/_print.scss */
   h1, h2, h3 {
     page-break-after: avoid;
   }
-  /* line 69, R:/var/www/laraprofiler/application/gulp/src/sass/components/_print.scss */
+  /* line 69, C:/wamp/www/remotes/application/gulp/src/sass/components/_print.scss */
   pre,
   blockquote {
     border-color: #999;
     page-break-inside: avoid;
   }
-  /* line 78, R:/var/www/laraprofiler/application/gulp/src/sass/components/_print.scss */
+  /* line 78, C:/wamp/www/remotes/application/gulp/src/sass/components/_print.scss */
   thead {
     display: table-header-group;
   }
-  /* line 85, R:/var/www/laraprofiler/application/gulp/src/sass/components/_print.scss */
+  /* line 85, C:/wamp/www/remotes/application/gulp/src/sass/components/_print.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 }
 
-/* line 2, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_forms.scss */
+/* line 2, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_forms.scss */
 .list-select {
   font-family: Arial, "Opensans", sans-serif;
   line-height: 1.5;
   position: relative;
 }
 
-/* line 141, R:/var/www/laraprofiler/application/gulp/src/sass/_mixins.scss */
+/* line 141, C:/wamp/www/remotes/application/gulp/src/sass/_mixins.scss */
 .list-select:after {
   content: "";
   display: table;
@@ -2538,30 +2538,30 @@ code.language-bash,
 }
 
 @media (min-width: 40em) {
-  /* line 2, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_forms.scss */
+  /* line 2, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_forms.scss */
   .list-select {
     line-height: 1.5625;
   }
 }
 
-/* line 12, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_forms.scss */
+/* line 12, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_forms.scss */
 .list-select .option,
 .list-select .selected {
   display: block;
 }
 
-/* line 17, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_forms.scss */
+/* line 17, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_forms.scss */
 .list-select .current {
   display: none;
 }
 
-/* line 21, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_forms.scss */
+/* line 21, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_forms.scss */
 .list-select.initialized {
   margin: 0 0 1.1875em 0;
   max-width: 300px;
 }
 
-/* line 25, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_forms.scss */
+/* line 25, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_forms.scss */
 .list-select.initialized .current {
   background-color: #ffffff;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAHCAYAAAAf6f3xAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAF1JREFUKJFjbOmek8XIyDCVgSTwf8avz0+yGxsb/5GmDwEYGRgYGEiznHJL4RYTbzl1LEWxmLDl1LMUw2LcllPXUqwWY1pOfUtxWgyznIGBQef3l8c51LaUgYGBAQAj/kQIxLqczwAAAABJRU5ErkJggg==);
@@ -2578,12 +2578,12 @@ code.language-bash,
   white-space: nowrap;
 }
 
-/* line 44, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_forms.scss */
+/* line 44, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_forms.scss */
 .list-select.initialized .options {
   display: none;
 }
 
-/* line 51, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_forms.scss */
+/* line 51, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_forms.scss */
 .list-select.active .options {
   background: #ffffff;
   border: 1px solid #b8b8b8;
@@ -2594,7 +2594,7 @@ code.language-bash,
   width: 100%;
 }
 
-/* line 61, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_forms.scss */
+/* line 61, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_forms.scss */
 .list-select.active .option {
   color: #555555;
   font: inherit;
@@ -2603,24 +2603,24 @@ code.language-bash,
   text-decoration: none;
 }
 
-/* line 68, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_forms.scss */
+/* line 68, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_forms.scss */
 .list-select.active .option:hover {
   background-color: #3399ff;
   color: #ffffff;
 }
 
-/* line 74, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_forms.scss */
+/* line 74, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_forms.scss */
 .list-select.active .selected {
   color: #0088cc;
 }
 
-/* line 77, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_forms.scss */
+/* line 77, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_forms.scss */
 .list-select.active .selected:hover {
   background-color: transparent;
   color: #0088cc;
 }
 
-/* line 9, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 9, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon {
   background-color: transparent;
   background-repeat: no-repeat;
@@ -2631,7 +2631,7 @@ code.language-bash,
   text-indent: -9999px;
 }
 
-/* line 22, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 22, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-checked, .wrap .icon-unchecked {
   background: #ffffff;
   border: 1px solid #808080;
@@ -2642,12 +2642,12 @@ code.language-bash,
   width: 15px;
 }
 
-/* line 33, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 33, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-checked {
   position: relative;
 }
 
-/* line 36, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 36, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-checked:after, .wrap .icon-checked:before {
   background: #0088cc;
   bottom: 24%;
@@ -2660,19 +2660,19 @@ code.language-bash,
   width: 3px;
 }
 
-/* line 49, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 49, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-checked:after {
   margin-left: -2px;
   transform: rotate(45deg);
 }
 
-/* line 54, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 54, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-checked:before {
   height: 6px;
   transform: rotate(-45deg);
 }
 
-/* line 60, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 60, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-dolby {
   background-image: url("images/formats.png");
   background-repeat: no-repeat;
@@ -2681,27 +2681,27 @@ code.language-bash,
   height: 35px;
 }
 
-/* line 71, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 71, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-dolby-digital-10, .wrap .icon-dolby-digital-mono, .wrap .icon-dolby-digital-20, .wrap .icon-dolby-digital-stereo, .wrap .icon-dolby-digital-50, .wrap .icon-dolby-digital-51, .wrap .icon-dolby-digital-surround {
   background-position: center 0;
 }
 
-/* line 80, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 80, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-dolby-digital-surround-ex {
   background-position: center -35px;
 }
 
-/* line 83, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 83, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-dolby-digital-plus {
   background-position: center -70px;
 }
 
-/* line 86, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 86, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-dolby-digital-hd, .wrap .icon-dolby-digital-true-hd {
   background-position: center -105px;
 }
 
-/* line 93, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 93, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-dts {
   background-image: url("images/formats.png");
   background-repeat: no-repeat;
@@ -2710,32 +2710,32 @@ code.language-bash,
   height: 35px;
 }
 
-/* line 102, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 102, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-dts-51 {
   background-position: center -140px;
 }
 
-/* line 106, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 106, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-dts-es-discrete {
   background-position: center -175px;
 }
 
-/* line 110, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 110, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-dts-es-matrixed {
   background-position: center -175px;
 }
 
-/* line 114, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 114, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-dts-hd-hr {
   background-position: center -210px;
 }
 
-/* line 118, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 118, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-dts-hd-master-audio {
   background-position: center -245px;
 }
 
-/* line 123, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 123, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-channels {
   background-image: url("images/channel.png");
   background-repeat: no-repeat;
@@ -2744,67 +2744,67 @@ code.language-bash,
   width: 35px;
 }
 
-/* line 132, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 132, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-channels-10 {
   background-position: center 0;
 }
 
-/* line 135, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 135, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-channels-20 {
   background-position: center -35px;
 }
 
-/* line 138, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 138, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-channels-21 {
   background-position: center -70px;
 }
 
-/* line 141, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 141, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-channels-30 {
   background-position: center -70px;
 }
 
-/* line 144, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 144, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-channels-22 {
   background-position: center -105px;
 }
 
-/* line 147, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 147, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-channels-31 {
   background-position: center -105px;
 }
 
-/* line 150, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 150, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-channels-40 {
   background-position: center -105px;
 }
 
-/* line 153, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 153, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-channels-32 {
   background-position: center -140px;
 }
 
-/* line 156, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 156, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-channels-50 {
   background-position: center -140px;
 }
 
-/* line 159, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 159, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-channels-51 {
   background-position: center -175px;
 }
 
-/* line 162, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 162, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-channels-61 {
   background-position: center -210px;
 }
 
-/* line 165, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 165, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-channels-71 {
   background-position: center -245px;
 }
 
-/* line 170, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 170, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-film {
   background-image: url("images/rating.png");
   background-repeat: no-repeat;
@@ -2812,74 +2812,106 @@ code.language-bash,
   height: 40px;
 }
 
-/* line 178, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 178, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-film-nr {
   background-position: 0 -80px;
   width: 168px;
 }
 
-/* line 183, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 183, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-film-g {
   background-position: 0 0;
   width: 167px;
 }
 
-/* line 188, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 188, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-film-pg {
   background-position: 0 -120px;
   width: 207px;
 }
 
-/* line 193, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 193, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-film-pg-13 {
   background-position: 0 -160px;
   width: 213px;
 }
 
-/* line 198, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 198, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-film-r {
   background-position: 0 -200px;
   width: 157px;
 }
 
-/* line 203, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_icons.scss */
+/* line 203, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_icons.scss */
 .wrap .icon-film-nc-17, .wrap .icon-film-adult {
   background-position: 0 -40;
   width: 177px;
 }
 
-/* line 4, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_toggler.scss */
-.sibling-toggle-target {
-  display: none;
+/* line 4, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_tabs.scss */
+.tab-section .tab-display {
+  margin: 1em 0;
 }
 
-/* line 7, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_toggler.scss */
-.sibling-toggle-target.active {
+/* line 141, C:/wamp/www/remotes/application/gulp/src/sass/_mixins.scss */
+.tab-section .tab-display:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 9, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_tabs.scss */
+.tab-section .tab-controls {
+  display: none;
+  list-style: none outside none;
+  margin: 1em 0;
+}
+
+/* line 141, C:/wamp/www/remotes/application/gulp/src/sass/_mixins.scss */
+.tab-section .tab-controls:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 20, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_tabs.scss */
+.tab-section.initialized .tab-controls {
   display: block;
 }
 
-/* line 12, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_toggler.scss */
-.sibling-toggle-control {
+/* line 24, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_tabs.scss */
+.tab-section.initialized .tab-control {
+  float: left;
+  margin-right: 1em;
+}
+
+/* line 28, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_tabs.scss */
+.tab-section.initialized .tab-control:last-child {
+  margin-right: 0;
+}
+
+/* line 32, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_tabs.scss */
+.tab-section.initialized .tab-control.active .tab-link {
+  color: inherit;
+  cursor: default;
+}
+
+/* line 38, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_tabs.scss */
+.tab-section.initialized .tab-content {
   display: none;
 }
 
-/* line 15, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_toggler.scss */
-.sibling-toggle-control.initialized {
-  display: inline-block;
+/* line 41, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_tabs.scss */
+.tab-section.initialized .tab-content.active {
+  display: block;
 }
 
-/* line 19, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_toggler.scss */
-.sibling-toggle-control.active {
-  cursor: default;
-  text-decoration: none;
-}
-
-/* line 3, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_wrap.scss */
+/* line 3, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_wrap.scss */
 .wrap .cover {
   width: 420px;
 }
 
-/* line 7, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_wrap.scss */
+/* line 7, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_wrap.scss */
 .wrap .banner {
   border-width: 1px;
   border-style: solid;
@@ -2888,7 +2920,7 @@ code.language-bash,
   text-align: center;
 }
 
-/* line 14, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_wrap.scss */
+/* line 14, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_wrap.scss */
 .wrap .banner a, .wrap .banner .link-block-styled,
 .wrap .banner em {
   color: #ffffff;
@@ -2898,86 +2930,86 @@ code.language-bash,
   text-transform: uppercase;
 }
 
-/* line 25, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_wrap.scss */
+/* line 25, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_wrap.scss */
 .wrap .banner a, .wrap .banner .link-block-styled {
   text-decoration: none;
 }
 
-/* line 28, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_wrap.scss */
+/* line 28, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_wrap.scss */
 .wrap .banner a.active, .wrap .banner .active.link-block-styled {
   display: none;
 }
 
-/* line 32, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_wrap.scss */
+/* line 32, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_wrap.scss */
 .wrap .banner a:hover, .wrap .banner .link-block-styled:hover, .wrap .banner .link-block:hover .link-block-styled, .link-block:hover .wrap .banner .link-block-styled {
   color: #e6e6e6;
 }
 
-/* line 37, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_wrap.scss */
+/* line 37, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_wrap.scss */
 .wrap .banner img {
   height: 1.875em;
   padding-top: 0.3125em;
 }
 
-/* line 42, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_wrap.scss */
+/* line 42, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_wrap.scss */
 .wrap .banner-blue {
   background-color: #2283db;
   border-color: #2283db;
 }
 
-/* line 46, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_wrap.scss */
+/* line 46, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_wrap.scss */
 .wrap .banner-black {
   background-color: #2a2a2a;
   border-color: #2a2a2a;
 }
 
-/* line 50, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_wrap.scss */
+/* line 50, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_wrap.scss */
 .wrap .banner-burg {
   background-color: #610e15;
   border-color: #610e15;
 }
 
-/* line 54, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_wrap.scss */
+/* line 54, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_wrap.scss */
 .wrap .banner-grey {
   background-color: #474747;
   border-color: #474747;
 }
 
-/* line 59, R:/var/www/laraprofiler/application/gulp/src/sass/site/modules/_wrap.scss */
+/* line 59, C:/wamp/www/remotes/application/gulp/src/sass/site/modules/_wrap.scss */
 .wrap .banner-bottom {
   border-radius: 0 0 10px 10px;
 }
 
-/* line 1, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 1, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form {
   background: #000;
 }
 
-/* line 7, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 7, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form .container {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-/* line 14, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 14, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form .row {
   background: #777;
   margin: 0;
 }
 
-/* line 19, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 19, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form .grid-third {
   padding: 10px;
 }
 
-/* line 23, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 23, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form fieldset {
   margin-left: 0;
   margin-right: 0;
   text-align: center;
 }
 
-/* line 28, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 28, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form fieldset.radio {
   background-color: #e5e5e5;
   border-color: #e5e5e5 #666666 #272727 #e5e5e5;
@@ -2986,18 +3018,18 @@ code.language-bash,
   border-width: 1px 3px 4px 1px;
 }
 
-/* line 36, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 36, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form fieldset.radio .input-inline {
   margin: 5px 0;
 }
 
-/* line 42, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 42, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form #response {
   margin: 10px 0 40px 0;
   position: relative;
 }
 
-/* line 47, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 47, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form .message {
   background: #cccccc;
   border-width: 4px 1px 1px 3px;
@@ -3015,7 +3047,7 @@ code.language-bash,
   width: 90%;
 }
 
-/* line 64, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 64, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form .timer {
   background-color: #000;
   background-image: url("/assets/images/timer.gif");
@@ -3031,22 +3063,22 @@ code.language-bash,
   width: 96px;
 }
 
-/* line 82, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 82, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form .container {
   min-width: 290px;
 }
 
 @media all and (max-width: 960px) {
-  /* line 87, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+  /* line 87, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
   .remote-form .container {
     width: 290px;
   }
-  /* line 90, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+  /* line 90, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
   .remote-form .grid-third {
     margin: 0;
     width: 100%;
   }
-  /* line 95, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+  /* line 95, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
   .remote-form .timer {
     cursor: default;
     left: 50%;
@@ -3056,7 +3088,7 @@ code.language-bash,
   }
 }
 
-/* line 104, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 104, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form button {
   border-radius: 5px;
   box-shadow: 0px 5px 0px 0px #272727, 0px 10px 5px #808080;
@@ -3071,19 +3103,19 @@ code.language-bash,
   width: 75px;
 }
 
-/* line 117, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 117, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form button:hover, .remote-form button:focus {
   color: #fcfcff;
   text-decoration: none;
 }
 
-/* line 122, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 122, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form button:active {
   box-shadow: 0px 2px 0px 0px #272727, 0px 5px 3px #808080;
   color: #808080;
 }
 
-/* line 128, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 128, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form .btn-num,
 .remote-form .btn-sym {
   background-color: #808080;
@@ -3091,62 +3123,62 @@ code.language-bash,
   font-size: 26px;
 }
 
-/* line 134, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 134, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form .btn-num:hover,
 .remote-form .btn-sym:hover {
   background-color: #666666;
 }
 
-/* line 137, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 137, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form .btn-num:active,
 .remote-form .btn-sym:active {
   background-color: #e5e5e5;
 }
 
-/* line 142, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 142, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form .btn-grn {
   background-color: #377f31;
   border: 1px solid #275a23;
 }
 
-/* line 146, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 146, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form .btn-grn:hover {
   background-color: #275a23;
 }
 
-/* line 149, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 149, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form .btn-grn:active {
   background-color: #47a43f;
 }
 
-/* line 154, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 154, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form .btn-red {
   background-color: #dd1144;
   border: 1px solid #ae0d35;
 }
 
-/* line 158, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 158, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form .btn-red:hover {
   background-color: #ae0d35;
 }
 
-/* line 161, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 161, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form .btn-red:active {
   background-color: #ef3261;
 }
 
-/* line 166, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 166, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form .btn-blu {
   background-color: #0088cc;
   border: 1px solid #006699;
 }
 
-/* line 170, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 170, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form .btn-blu:hover {
   background-color: #006699;
 }
 
-/* line 173, R:/var/www/laraprofiler/application/gulp/src/sass/site/pages/_remote.scss */
+/* line 173, C:/wamp/www/remotes/application/gulp/src/sass/site/pages/_remote.scss */
 .remote-form .btn-blu:active {
   background-color: #00aaff;
 }

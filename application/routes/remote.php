@@ -4,8 +4,8 @@ Route::get( 'remote', array(
 	'as' => 'remote',
 	function()
 	{
-        Config::set( 'application.profiler', false );
-        Config::set( 'database.profile', false );
+		Config::set( 'application.profiler', false );
+		Config::set( 'database.profile', false );
 
 		$irport = 1;
 		$macro = false;
@@ -25,8 +25,8 @@ Route::post( 'remote/macro', array(
 	'as' => 'macro',
 	function()
 	{
-        Config::set( 'application.profiler', false );
-        Config::set( 'database.profile', false );
+		Config::set( 'application.profiler', false );
+		Config::set( 'database.profile', false );
 
 		$data = Input::all();
 		if( ! empty( $data['cmd'] ) )

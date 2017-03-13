@@ -1,209 +1,209 @@
 %rating-tv {
-    background: {
-        image: url('images/rating-tv.png');
-        repeat: no-repeat;
-        size: 32px 192px;
-    }
+	background: {
+		image: url('images/rating-tv.png');
+		repeat: no-repeat;
+		size: 32px 192px;
+	}
 }
 
 .wrap .icon {
-    background: {
-        color: transparent;
-        repeat: no-repeat;
-    }
-    color: transparent;
-    font: {
-        size: 0;
-        weight: normal;
-    }
-    line-height: 0;
-    text-indent: -9999px;
+	background: {
+		color: transparent;
+		repeat: no-repeat;
+	}
+	color: transparent;
+	font: {
+		size: 0;
+		weight: normal;
+	}
+	line-height: 0;
+	text-indent: -9999px;
 
 	&-checked,
-    &-unchecked {
-        background: $color-white;
-        border: 1px solid $color-gray-dark;
-        border-radius: 3px;
-        height: 15px;
-        margin-right: 5px;
-        vertical-align: middle;
-        width: 15px;
-    }
-
-	&-checked {
-        position: relative;
-
-        &:after,
-        &:before {
-            background: $color-primary;
-            bottom: 24%;
-            content: '';
-            height: 10px;
-            left: 40%;
-            position: absolute;
-            transform-origin: center bottom;
-            transition: all .2s;
-            width: 3px;
-        }
-
-        &:after {
-            margin-left: -2px;
-            transform: rotate(45deg);
-        }
-
-        &:before {
-            height: 6px;
-            transform: rotate(-45deg);
-        }
+	&-unchecked {
+		background: $color-white;
+		border: 1px solid $color-gray-dark;
+		border-radius: 3px;
+		height: 15px;
+		margin-right: 5px;
+		vertical-align: middle;
+		width: 15px;
 	}
 
-    &-dolby {
-        background: {
-            image: url('images/formats.png');
-            repeat: no-repeat;
-            size: 70px 350px;
-        }
-        width: 70px;
-        height: 35px;
-    
-        &-digital {
+	&-checked {
+		position: relative;
 
-            &-10,
-            &-mono ,
-            &-20,
-            &-stereo,
-            &-50,
-            &-51,
-            &-surround {
-                background-position: center 0;
-            }
-            &-surround-ex {
-                background-position: center -35px;
-            }
-            &-plus {
-                background-position: center -70px;
-            }
-            &-hd,
-            &-true-hd  {
-                background-position: center -105px;
-            }
-        }
-    }
+		&:after,
+		&:before {
+			background: $color-primary;
+			bottom: 24%;
+			content: '';
+			height: 10px;
+			left: 40%;
+			position: absolute;
+			transform-origin: center bottom;
+			transition: all .2s;
+			width: 3px;
+		}
 
-    &-dts {
-        background: {
-            image: url('images/formats.png');
-            repeat: no-repeat;
-            size: 70px 350px;
-        }
-        width: 70px;
-        height: 35px;
+		&:after {
+			margin-left: -2px;
+			transform: rotate(45deg);
+		}
 
-        &-51 {
-            background-position: center -140px;
-        }
+		&:before {
+			height: 6px;
+			transform: rotate(-45deg);
+		}
+	}
 
-        &-es-discrete {
-            background-position: center -175px;
-        }
+	&-dolby {
+		background: {
+			image: url('images/formats.png');
+			repeat: no-repeat;
+			size: 70px 350px;
+		}
+		width: 70px;
+		height: 35px;
 
-        &-es-matrixed {
-            background-position: center -175px;
-        }
+		&-digital {
 
-        &-hd-hr {
-            background-position: center -210px;
-        }
+			&-10,
+			&-mono ,
+			&-20,
+			&-stereo,
+			&-50,
+			&-51,
+			&-surround {
+				background-position: center 0;
+			}
+			&-surround-ex {
+				background-position: center -35px;
+			}
+			&-plus {
+				background-position: center -70px;
+			}
+			&-hd,
+			&-true-hd  {
+				background-position: center -105px;
+			}
+		}
+	}
 
-        &-hd-master-audio {
-            background-position: center -245px;
-        }
-    }
+	&-dts {
+		background: {
+			image: url('images/formats.png');
+			repeat: no-repeat;
+			size: 70px 350px;
+		}
+		width: 70px;
+		height: 35px;
 
-    &-channels {
-        background: {
-            image: url('images/channel.png');
-            repeat: no-repeat;
-            size: 35px 280px;
-        }
-        height: 35px;
-        width: 35px;
+		&-51 {
+			background-position: center -140px;
+		}
 
-        &-10 {
-            background-position: center 0;
-        }
-        &-20 {
-            background-position: center -35px;
-        }
-        &-21 {
-            background-position: center -70px;
-        }
-        &-30 {
-            background-position: center -70px;
-        }
-        &-22 {
-            background-position: center -105px;
-        }
-        &-31 {
-            background-position: center -105px;
-        }
-        &-40 {
-            background-position: center -105px;
-        }
-        &-32 {
-            background-position: center -140px;
-        }
-        &-50 {
-            background-position: center -140px;
-        }
-        &-51 {
-            background-position: center -175px;
-        }
-        &-61 {
-            background-position: center -210px;
-        }
-        &-71 {
-            background-position: center -245px;
-        }
-    }
+		&-es-discrete {
+			background-position: center -175px;
+		}
 
-    &-film {
-        background: {
-            image: url('images/rating.png');
-            repeat: no-repeat;
-            size: 213px 240px;
-        }
-        height: 40px;
+		&-es-matrixed {
+			background-position: center -175px;
+		}
 
-        &-nr {
-            background-position: 0 -80px;
-            width: 168px;
-        }
+		&-hd-hr {
+			background-position: center -210px;
+		}
 
-        &-g {
-            background-position: 0 0;
-            width: 167px;
-        }
+		&-hd-master-audio {
+			background-position: center -245px;
+		}
+	}
 
-        &-pg {
-            background-position: 0 -120px;
-            width: 207px;
-        }
+	&-channels {
+		background: {
+			image: url('images/channel.png');
+			repeat: no-repeat;
+			size: 35px 280px;
+		}
+		height: 35px;
+		width: 35px;
 
-        &-pg-13 {
-            background-position: 0 -160px;
-            width: 213px;
-        }
-        
-        &-r {
-            background-position: 0 -200px;
-            width: 157px;
-        }
+		&-10 {
+			background-position: center 0;
+		}
+		&-20 {
+			background-position: center -35px;
+		}
+		&-21 {
+			background-position: center -70px;
+		}
+		&-30 {
+			background-position: center -70px;
+		}
+		&-22 {
+			background-position: center -105px;
+		}
+		&-31 {
+			background-position: center -105px;
+		}
+		&-40 {
+			background-position: center -105px;
+		}
+		&-32 {
+			background-position: center -140px;
+		}
+		&-50 {
+			background-position: center -140px;
+		}
+		&-51 {
+			background-position: center -175px;
+		}
+		&-61 {
+			background-position: center -210px;
+		}
+		&-71 {
+			background-position: center -245px;
+		}
+	}
 
-        &-nc-17,
-        &-adult {
-            background-position: 0 -40;
-            width: 177px;
-        }
-    }
+	&-film {
+		background: {
+			image: url('images/rating.png');
+			repeat: no-repeat;
+			size: 213px 240px;
+		}
+		height: 40px;
+
+		&-nr {
+			background-position: 0 -80px;
+			width: 168px;
+		}
+
+		&-g {
+			background-position: 0 0;
+			width: 167px;
+		}
+
+		&-pg {
+			background-position: 0 -120px;
+			width: 207px;
+		}
+
+		&-pg-13 {
+			background-position: 0 -160px;
+			width: 213px;
+		}
+
+		&-r {
+			background-position: 0 -200px;
+			width: 157px;
+		}
+
+		&-nc-17,
+		&-adult {
+			background-position: 0 -40;
+			width: 177px;
+		}
+	}
 }

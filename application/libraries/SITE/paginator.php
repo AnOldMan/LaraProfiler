@@ -32,10 +32,10 @@ class Paginator extends ParentClass
 	 * Create a new Paginator instance.
 	 *
 	 * @param  array  $results
-	 * @param  int    $page
-	 * @param  int    $total
-	 * @param  int    $per_page
-	 * @param  int    $last
+	 * @param  int	$page
+	 * @param  int	$total
+	 * @param  int	$per_page
+	 * @param  int	$last
 	 * @return void
 	 */
 	protected function __construct( $results, $page, $total, $per_page, $last, $appends = array() )
@@ -61,10 +61,10 @@ class Paginator extends ParentClass
 	/**
 	 * Create a new Paginator instance.
 	 *
-	 * @param  array      $results
-	 * @param  int        $total
-	 * @param  int        $per_page
-	 * @param  bool       $fit
+	 * @param  array	  $results
+	 * @param  int		$total
+	 * @param  int		$per_page
+	 * @param  bool	   $fit
 	 * @return Paginator
 	 */
 	public static function make( $results, $total, $per_page, $fit = false, $appends = array() )
@@ -114,7 +114,7 @@ class Paginator extends ParentClass
 	 * Create a chronological pagination element, such as a "previous" or "next" link.
 	 *
 	 * @param  string   $element
-	 * @param  int      $page
+	 * @param  int	  $page
 	 * @param  string   $text
 	 * @param  Closure  $disabled
 	 * @return string
@@ -145,9 +145,9 @@ class Paginator extends ParentClass
 	 *
 	 * For the current page, an HTML span element will be generated instead of a link.
 	 *
-	 * @param  int     $start
-	 * @param  int     $end
-	 * @param  bool    $separator
+	 * @param  int	 $start
+	 * @param  int	 $end
+	 * @param  bool	$separator
 	 * @return string
 	 */
 	protected function range( $start, $end, $separator = false )
@@ -182,7 +182,7 @@ class Paginator extends ParentClass
 	 *		echo $paginator->slider(5);
 	 * </code>
 	 *
-	 * @param  int     $adjacent
+	 * @param  int	 $adjacent
 	 * @return string
 	 */
 	public function slider($adjacent = 3)
@@ -210,7 +210,7 @@ class Paginator extends ParentClass
 
 		// Example: 1 2 ... 23 24 25 [26] 27 28 29 ... 51 52
 		$content = $this->range($this->page - $adjacent, $this->page + $adjacent);
-		
+
 		return $this->beginning().' '.$content.' '.$this->ending();
 	}
 
@@ -261,7 +261,7 @@ class Paginator extends ParentClass
 	 *		echo $paginator->links(5);
 	 * </code>
 	 *
-	 * @param  int     $adjacent
+	 * @param  int	 $adjacent
 	 * @return string
 	 */
 	public function links( $adjacent = 3, $ends = 2 )
@@ -285,10 +285,10 @@ class Paginator extends ParentClass
 	/**
 	 * Create a HTML page link.
 	 *
-	 * @param  int     $page
+	 * @param  int	 $page
 	 * @param  string  $text
 	 * @param  string  $class
-	 * @param  bool    $disabled
+	 * @param  bool	$disabled
 	 * @return string
 	 */
 	protected function link( $page, $text, $class, $disabled = false )
@@ -314,7 +314,7 @@ class Paginator extends ParentClass
 	/**
 	 * Create the HTML pagination links for all pages.
 	 *
-	 * @param  bool    $separator
+	 * @param  bool	$separator
 	 * @return string
 	 */
 	public function pages( $separator = true )

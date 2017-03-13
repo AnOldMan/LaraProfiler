@@ -13,7 +13,7 @@ $page = View::make('shells.main')
 	->with( 'title', '500 - Internal Server Error' )
 	->with( 'notopbar', true )
 	->with( 'heading', 'Server Error: 500 (Internal Server Error)' )
-	->with( 'content', View::make('pages.500') )
+	->with( 'content', htmlawed::indent( View::make('error.content.500')->render(), 4 ) )
 	->render();
 
 @file_put_contents( $file, $page );

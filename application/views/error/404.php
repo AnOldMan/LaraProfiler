@@ -12,5 +12,5 @@ if( ! Auth::guest() && arg(0) == 'admin' && Auth::user()->type == 'User' )
 print View::make('shells.main')
 	->with( 'title', '404 - Not Found' )
 	->with( 'heading', 'Server Error: 404 (Page Not Found)' )
-	->with( 'content', View::make('pages.404') )
+	->with( 'content', htmlawed::indent( View::make('error.content.404')->render(), 4 ) )
 	->render();

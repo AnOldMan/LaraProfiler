@@ -43,7 +43,7 @@ class Company extends Eloquent {
 			if( $data['name'] == $name ) return $id;
 		}
 	}
-	
+
 	private static function eagerload()
 	{
 		if( self::$list === false )
@@ -66,10 +66,10 @@ class Company extends Eloquent {
 
 	public function save()
 	{
-        if( empty( $this->stub ) ) 
+		if( empty( $this->stub ) )
 		{
 			$this->seoStub();
-        }
+		}
 
 		parent::save();
 	}

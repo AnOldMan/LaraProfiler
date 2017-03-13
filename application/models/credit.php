@@ -34,7 +34,7 @@ class Credit extends Eloquent {
 
 	public function set_type_phrase()
 	{
-		$current = $this->get_attribute( 'type_phrase' ); 
+		$current = $this->get_attribute( 'type_phrase' );
 		if( is_numeric( $current ) )
 		{
 			$this->set_attribute( 'type_phrase', Phrase::by_phrase( $current ) );
@@ -48,7 +48,7 @@ class Credit extends Eloquent {
 
 	public function set_sub_type_phrase()
 	{
-		$current = $this->get_attribute( 'sub_type_phrase' ); 
+		$current = $this->get_attribute( 'sub_type_phrase' );
 		if( is_numeric( $current ) )
 		{
 			$this->set_attribute( 'sub_type_phrase', Phrase::by_phrase( $current ) );

@@ -30,7 +30,7 @@ class Rating extends Eloquent {
 
 	public function save()
 	{
-        if( empty( $this->stub ) ) $this->seoStub();
+		if( empty( $this->stub ) ) $this->seoStub();
 		parent::save();
 	}
 }

@@ -23,7 +23,7 @@ class Phrase extends Eloquent {
 		self::eagerload();
 		if( isset( self::$list[$id] ) ) return self::$list[$id]['stub'];
 	}
-	
+
 	public static function by_stub( $stub )
 	{
 		self::eagerload();
@@ -85,7 +85,7 @@ class Phrase extends Eloquent {
 
 	public function save()
 	{
-        if( empty( $this->stub ) ) $this->seoStub();
+		if( empty( $this->stub ) ) $this->seoStub();
 		parent::save();
 	}
 }

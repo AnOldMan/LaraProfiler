@@ -6,10 +6,10 @@ Route::get( 'film/(:any)', array(
 	{
 		if( $film = Film::by_stub( $stub ) )
 		{
-			return View::make('shells.main')
-				->with( 'title', 'LaraProfiler' )
-				->with( 'heading', $film['detail']['title'] )
-				->with( 'content', View::make('pages.film.details')
+			return View::make( 'shells.main' )
+				->with( 'title', empty( $film['detail']['title'] ) ? 'LaraProfiler' : $film['detail']['title'] )
+				->with( 'heading', '' )
+				->with( 'content', View::make( 'pages.film.details' )
 					->with( 'film', $film )
 				)
 				->render();
@@ -29,7 +29,7 @@ Route::get( 'genre/(:any)', array(
 			$current = $select[$stub];
 			if( $results = Genre::paginate( $stub ) )
 			{
-				return View::make('shells.main')
+				return View::make( 'shells.main' )
 					->with( 'title', 'LaraProfiler' )
 					->with( 'heading', $select[$stub] )
 					->with( 'content', View::make('pages.film.list.genres')
@@ -54,7 +54,7 @@ Route::get( 'person/(:any)', array(
 			kpr( $results );exit;
 		}
 
-		return Response::error('404');
+		return Response::error( '404' );
 	}
 ));
 
@@ -66,7 +66,7 @@ Route::get( 'company/(:any)', array(
 		{
 			kpr( $results );exit;
 		}
-		
-		return Response::error('404');
+
+		return Response::error( '404' );
 	}
 ));

@@ -30,10 +30,10 @@
 }
 
 .roboto {
-	
+
 	&-cond {
 		@include Roboto('cond', 'extend');
-		
+
 		b, dt, h1, h2, h3, h4, h5, h6, strong, &-bold {
 			@include Roboto('cond_bold', 'extend');
 		}
@@ -44,7 +44,7 @@
 	b, dt, h1, h2, h3, h4, h5, h6, strong, &-bold {
 		@include Roboto('bold', 'extend');
 	}
-	
+
 	&-black {
 		@include Roboto('black', 'extend');
 	}

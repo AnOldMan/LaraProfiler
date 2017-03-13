@@ -20,7 +20,7 @@ class HTML extends ParentClass
 	 * @param  string  $url
 	 * @param  string  $title
 	 * @param  array   $attributes
-	 * @param  bool    $https
+	 * @param  bool	$https
 	 * @return string
 	 */
 	public static function link_raw( $url, $title = null, $attributes = array(), $https = null )
