@@ -32,7 +32,7 @@ class Genre extends Eloquent {
 		{
 			$results = Cache::remember('genre-'. $stub, function() use( $id ) {
 				$films = self::where( 'phrase_id', '=', $id )->lists( 'film_id' );
-				return Film::where_in( 'id', $films )->order_by('sorttitle')->lists('sorttitle','stub');
+				return $films ? Film::where_in( 'id', $films )->order_by('sorttitle')->lists('sorttitle','stub') : null;
 			}, 60*24);
 			if( $results ) return Paginator::make( $results, count( $results ), 20, true );
 		}

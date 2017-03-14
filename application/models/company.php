@@ -15,11 +15,6 @@ class Company extends Eloquent {
 
 	public static $list = false;
 
-	public static function paginate( $stub )
-	{
-		return true;
-	}
-
 	public static function by_id( $id )
 	{
 		self::eagerload();
@@ -32,6 +27,15 @@ class Company extends Eloquent {
 		foreach( self::$list as $id => $data )
 		{
 			if( $data['stub'] == $stub ) return $id;
+		}
+	}
+
+	public static function name_by_stub( $stub )
+	{
+		self::eagerload();
+		foreach( self::$list as $id => $data )
+		{
+			if( $data['stub'] == $stub ) return $data['name'];
 		}
 	}
 
@@ -50,7 +54,7 @@ class Company extends Eloquent {
 		{
 			self::$list = Cache::remember('company-all', function(){
 				$return = array();
-				if( $results = parent::all() )
+				if( $results = Company::all() )
 				{
 					foreach( $results as $o ) $return[$o->id] = array( 'name' => $o->name, 'stub' => $o->stub );
 				}
@@ -74,19 +78,19 @@ class Company extends Eloquent {
 		parent::save();
 	}
 
-	public static function link( $id )
+	public static function link( $id, $type )
 	{
 		self::eagerload();
 		$a = empty( self::$list[$id] ) ? array() : self::$list[$id];
 		if( ! empty( $a['stub'] ) && ! empty( $a['name'] ) )
 		{
-			return self::format_link( $a['stub'],  $a['name'] );
+			return self::format_link( $a['stub'],  $a['name'], $type );
 		}
 		return '';
 	}
 
-	public static function format_link( $stub, $txt )
+	public static function format_link( $stub, $txt, $type )
 	{
-		return '<a class="company-link" href="' . URI::to_route( 'company', array( $stub ), false ) . '">' . $txt . '</a>';
+		return '<a class="company-link" href="' . URI::to_route( $type, array( $stub ), false ) . '">' . $txt . '</a>';
 	}
 }

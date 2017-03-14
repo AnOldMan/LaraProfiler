@@ -22,4 +22,21 @@ class Studio extends Eloquent {
 	{
 		return $this->belongs_to( 'Company' );
 	}
+
+	public static function paginate( $stub )
+	{
+		if( $id = Company::by_stub( $stub ) )
+		{
+			$results = Cache::remember('studio-'. $stub, function() use( $id ) {
+				$films = Studio::where( 'company_id', '=', $id )->lists( 'film_id' );
+				return $films ? Film::where_in( 'id', $films )->order_by('sorttitle')->lists('sorttitle','stub') : null;
+			}, 60*24);
+			if( $results ) return Paginator::make( $results, count( $results ), 20, true );
+		}
+	}
+
+	public static function link( $id )
+	{
+		return Company::link( $id, 'studio' );
+	}
 }

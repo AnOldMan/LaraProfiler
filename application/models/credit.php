@@ -27,6 +27,18 @@ class Credit extends Eloquent {
 		return $this->belongs_to( 'Person' );
 	}
 
+	public static function paginate( $stub )
+	{
+		if( $id = Person::by_stub( $stub ) )
+		{
+			$results = Cache::remember('credit-'. $stub, function() use( $id ) {
+				$films = self::where( 'person_id', '=', $id )->lists( 'film_id' );
+				return Film::where_in( 'id', $films )->order_by('sorttitle')->lists('sorttitle','stub');
+			}, 60*24);
+			if( $results ) return Paginator::make( $results, count( $results ), 20, true );
+		}
+	}
+
 	public function get_type_phrase()
 	{
 		return Phrase::by_id( $this->get_attribute( 'type_phrase' ) );
@@ -53,5 +65,10 @@ class Credit extends Eloquent {
 		{
 			$this->set_attribute( 'sub_type_phrase', Phrase::by_phrase( $current ) );
 		}
+	}
+
+	public static function link( $id )
+	{
+		return Person::link( $id, 'credit' );
 	}
 }

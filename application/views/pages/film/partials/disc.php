@@ -1,31 +1,34 @@
 <?php
 
 if( empty( $data ) ) return '';
+$list = array();
+foreach( $data as $d )
+{
+	if( empty( $d['label'] ) || empty( $d['description'] ) ) continue;
+	$description = array(
+		HTML::icon( empty( $data['dual_layer'] ) ? 'unchecked' : 'checked', ( empty( $data['dual_layer'] ) ? '-' : '+' ) ) . 'Dual-layer',
+		HTML::icon( empty( $data['dual_sided'] ) ? 'unchecked' : 'checked', ( empty( $data['dual_sided'] ) ? '-' : '+' ) ) . 'Dual-sided',
+		'<p>' . $d['description'] . '</p>'
+	);
+	$list[] = array(
+		'dt' => $d['label'],
+		'dd' => implode( "\n", $description ),
+		'class' => 'disc'
+	);
+	$location = array();
+	if( ! empty( $d['location'] ) ) $location['Location'] = $d['location'];
+	if( ! empty( $d['slot'] ) ) $location['Slot'] = $d['slot'];
+	if( $location ) $list[] = array(
+		'dt' => implode( '/', array_keys( $location ) ),
+		'dd' => implode( '/', $location ),
+		'class' => 'location'
+	);
 
-?>
-<label><?= count( $data ) == 1 ? 'Disc' : 'Discs' ?>:</label>
-<dl class="dd-disc">
-<?php foreach( $data as $d ) :
-		if( empty( $d['label'] ) || empty( $d['description'] ) ) continue;
-		$location = array();
-		if( ! empty( $d['location'] ) ) $location['Location'] = $d['location'];
-		if( ! empty( $d['slot'] ) ) $location['Slot'] = $d['slot'];
-		?>
-	<dt><?= $d['label'] ?>:</dt>
-	<dd>
-		<?= HTML::icon( empty( $data['dual_layer'] ) ? 'unchecked' : 'checked', ( empty( $data['dual_layer'] ) ? '-' : '+' ) ) . 'Dual-layer' ?>
+}
+if( empty( $list ) ) return '';
 
-		<?= HTML::icon( empty( $data['dual_sided'] ) ? 'unchecked' : 'checked', ( empty( $data['dual_sided'] ) ? '-' : '+' ) ) . 'Dual-sided' ?>
+if( empty( $nolabel ) ) : ?>
+<label class="label-disc"><?= count( $data ) == 1 ? 'Disc' : 'Discs' ?>:</label>
+<?php endif;
 
-		<p><?= $d['description'] ?></p>
-	</dd>
-<?php   if( ! empty( $d['disc_id'] ) ) : ?>
-	<dt>Disc ID:</dt>
-	<dd><?= $d['disc_id'] ?></dd>
-<?php   endif;
-		if( $location ) : ?>
-	<dt><?= implode( '/', array_keys( $location ) ) ?>:</dt>
-	<dd><?= implode( '/', $location ) ?></dd>
-<?php   endif;
-      endforeach; ?>
-</dl>
+print HTML::dl( $list, array( 'html' => true, 'class' => 'dl-disc' ) );

@@ -1,9 +1,7 @@
 <?php
-
-if( empty( $paginator ) ) return '';
+if( empty( $paginator ) ) return;
 $list = array();
 foreach( $paginator->results as $url => $title ) $list[] =  Film::format_link( $url, $title );
-
 ?>
 <div class="film-list">
 	<h3><?= $paginator->total . ( $paginator->total == 1 ? ' film' : ' films' ) ?></h3>

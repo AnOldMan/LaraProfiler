@@ -2,10 +2,8 @@
 
 if( empty( $data ) ) return '';
 
-?>
-<label>Features:</label>
-<ul class="list-unstyled">
-<?php foreach( array(
+$list = array();
+foreach( array(
 	'sceneaccess' => 'Scene Access',
 	'comment' => 'Comments',
 	'trailer' => 'Trailer',
@@ -26,16 +24,22 @@ if( empty( $data ) ) return '';
 	'pip' => 'PiP',
 	'bdlive' => 'BD-Live',
 	'digitalcopy' => 'Digital Copy'
-) as $k => $t ) : ?>
-	<li><?= HTML::icon( empty( $data[$k] ) ? 'unchecked' : 'checked', ( empty( $data[$k] ) ? '-' : '+' ) ) . $t ?></li>
-<?php endforeach;
-if( ! empty( $data['other'] ) ) :
+) as $k => $t ) $list[] = HTML::icon( empty( $data[$k] ) ? 'unchecked' : 'checked', ( empty( $data[$k] ) ? '-' : '+' ) ) . $t;
+
+if( ! empty( $data['other'] ) )
+{
 	$e = explode( "\n", $data['other'] );
-	foreach( $e as $t ) :
+	foreach( $e as $t )
+	{
 		$t = trim( $t );
-		if( ! $t ) continue; ?>
-	<li><?= HTML::icon( 'checked', '+' ) . $t  ?></li>
-<?php
-	endforeach;
-endif; ?>
-</ul>
+		if( $t ) $list[] = HTML::icon( 'checked', '+' ) . $t;
+	}
+}
+
+if( empty( $list ) ) return '';
+
+if( empty( $nolabel ) ) : ?>
+<label class="label-feature">Features:</label>
+<?php endif;
+
+print HTML::ul( $list, array( 'html' => true, 'class' => 'list-unstyled film-feature' ) );

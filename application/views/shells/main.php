@@ -47,26 +47,26 @@ $footer = ! isset( $footer )
 	<body>
 <?php if( ! empty( $header ) ) : ?>
 		<header class="container">
-			<section class="row">
+			<div class="row">
 <?= htmlawed::indent( $header, 4 ) ?>
 
-			</section>
+			</div>
 		</header>
 <?php endif;
 	  if( ! empty( $content ) ) : ?>
 		<main class="container">
-			<section class="row">
+			<div class="row">
 <?= htmlawed::indent( $content, 4 ) ?>
 
-			</section>
+			</div>
 		</main>
 <?php endif;
 	  if( ! empty( $footer ) ) : ?>
 		<footer class="container">
-			<section class="row">
+			<div class="row">
 <?= htmlawed::indent( $footer, 4 ) ?>
 
-			</section>
+			</div>
 		</footer>
 <?php endif; ?>
 	</body>

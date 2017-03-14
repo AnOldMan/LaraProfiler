@@ -27,4 +27,21 @@ class Role extends Eloquent {
 	{
 		return $this->belongs_to( 'Person' );
 	}
+
+	public static function paginate( $stub )
+	{
+		if( $id = Person::by_stub( $stub ) )
+		{
+			$results = Cache::remember('role-'. $stub, function() use( $id ) {
+				$films = Role::where( 'person_id', '=', $id )->lists( 'film_id' );
+				return $films ? Film::where_in( 'id', $films )->order_by('sorttitle')->lists('sorttitle','stub') : null;
+			}, 60*24);
+			if( $results ) return Paginator::make( $results, count( $results ), 20, true );
+		}
+	}
+
+	public static function link( $id )
+	{
+		return Person::link( $id, 'role' );
+	}
 }

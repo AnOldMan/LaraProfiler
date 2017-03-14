@@ -1,13 +1,13 @@
 <?php
 
 if( empty( $data ) ) return '';
-foreach( $data as $k => $d ) if( empty( $d['phrase'] ) ) unset( $data[$k] );
-if( empty( $data ) ) return;
+$list = array();
+foreach( $data as $i => $d ) if( ! empty( $d['phrase'] ) ) $list[] = $d['phrase'];
 
-?>
-<label><?= count( $data ) == 1 ? 'SubTitle' : 'SubTitles' ?>:</label>
-<ul class="list-unstyled">
-<?php foreach( $data as $d ) : ?>
-	<li><?= $d['phrase'] ?></li>
-<?php endforeach; ?>
-</ul>
+if( empty( $list ) ) return;
+
+if( empty( $nolabel ) ) : ?>
+<label class="label-subtitle"><?= count( $data ) == 1 ? 'SubTitle' : 'SubTitles' ?>:</label>
+<?php endif;
+
+print HTML::ul( $list, array( 'html' => true, 'class' => 'list-unstyled film-subtitle' ) );

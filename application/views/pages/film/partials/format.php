@@ -2,15 +2,9 @@
 
 if( empty( $data ) ) return '';
 
-?>
-<label>Format:</label>
-<ul class="list-unstyled film-format">
-<?php if( ! empty( $data['video'] ) ) : ?>
-	<li class="format-video">Video: <?= $data['video'] ?></li>
-<?php endif;
-if( ! empty( $data['ratio'] ) ) : ?>
-	<li class="format-ratio">Ratio: <?= $data['ratio'] ?></li>
-<?php endif;
+$list = array();
+if( ! empty( $data['video'] ) ) $list[] = array( 'li' => 'Video: ' . $data['video'], 'class' => 'format-video' );
+if( ! empty( $data['ratio'] ) ) $list[] = array( 'li' => 'Ratio: ' . $data['ratio'], 'class' => 'format-ratio' );
 foreach( array(
 		'panandscan' => 'Pan-and-Scan',
 		'fullframe' => 'Full-frame',
@@ -18,7 +12,12 @@ foreach( array(
 		'anamorph' => 'Anamorphic',
 		'dualside' => 'Dual-sided',
 		'duallayer' => 'Dual-layer'
-	) as $k => $t ) : ?>
-	<li><?= HTML::icon( empty( $data[$k] ) ? 'unchecked' : 'checked', ( empty( $data[$k] ) ? '-' : '+' ) ) . $t ?></li>
-<?php endforeach; ?>
-</ul>
+	) as $k => $t ) $list[] = HTML::icon( empty( $data[$k] ) ? 'unchecked' : 'checked', ( empty( $data[$k] ) ? '-' : '+' ) ) . $t;
+
+if( empty( $list ) ) return '';
+
+if( empty( $nolabel ) ) : ?>
+<label class="label-format">Format:</label>
+<?php endif;
+
+print HTML::ul( $list, array( 'html' => true, 'class' => 'list-unstyled film-format' ) );

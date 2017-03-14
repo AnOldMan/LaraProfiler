@@ -31,7 +31,6 @@ class Film extends Eloquent {
 					'audio.content',
 					'audio.format',
 					'credit',
-					'credit.person',
 					'detail',
 					'disc',
 					'feature',
@@ -39,12 +38,9 @@ class Film extends Eloquent {
 					'genre',
 					'genre.phrase',
 					'manufacturer',
-					'manufacturer.company',
 					'rating',
 					'role',
-					'role.person',
 					'studio',
-					'studio.company',
 					'subtitle'
 				) )
 				->where( 'stub', '=', $stub )
@@ -84,7 +80,7 @@ class Film extends Eloquent {
 	}
 
 	public function manufacturer(){
-		return $this->has_one('Manufacturer');
+		return $this->has_many('Manufacturer');
 	}
 
 	public function role(){

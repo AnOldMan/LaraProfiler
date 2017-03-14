@@ -18,30 +18,31 @@ $formats = array(
 	'ac3' => 61
 );
 
+$list = array();
 foreach( $data as $k => $d )
 {
-	if( empty( $d['content'] ) || empty( $d['format'] ) ) unset( $data[$k] );
+	$channels = '';
+	if( empty( $d['content'] ) || empty( $d['format'] ) ) continue;
 	else if( ! empty( $formats[$d['format']['stub']] ) )
 	{
-		$data[$k]['format']['channels'] = $formats[$d['format']['stub']];
+		$channels = HTML::icon( 'channels-' . $formats[$d['format']['stub']] / 10 );
 	}
 	else {
 		$e = explode( '-', $d['format']['stub'] );
 		$e = array_pop( $e );
-		if( is_numeric( $e ) ) $data[$k]['format']['channels'] = (int)$e;
+		if( is_numeric( $e ) ) $channels = HTML::icon( 'channels-' .(int)$e / 10 );;
 	}
+	$list[] = array(
+		'dt' => $d['content']['phrase'],
+		'dd' => HTML::icon( $d['format']['stub'], $d['format']['phrase'] ). $channels,
+		'class' => $d['format']['stub']
+	);
 }
 
-if( empty( $data ) ) return;
+if( empty( $list ) ) return;
 
-?>
-<label>Audio <?= count( $data ) == 1 ? 'Channel' : 'Channels' ?>:</label>
-<dl class="dd-audio">
-<?php foreach( $data as $d ) : ?>
-	<dt><?= $d['content']['phrase'] ?>:</dt>
-	<dd><?php
-		print HTML::icon( $d['format']['stub'], $d['format']['phrase'] );
-		if( ! empty( $d['format']['channels'] ) ) print HTML::icon( 'channels-' . $d['format']['channels'], $d['format']['channels'] / 10 );
-		?></dd>
-<?php endforeach; ?>
-</dl>
+if( empty( $nolabel ) ) : ?>
+<label class="label-audio">Audio <?= count( $data ) == 1 ? 'Channel' : 'Channels' ?>:</label>
+<?php endif;
+
+print HTML::dl( $list, array( 'html' => true, 'class' => 'dl-audio' ) );

@@ -38,7 +38,7 @@ $tabs['Disc'] = array(
 );
 
 $tabs['EasterEgg'] = array(
-	'content' => ( empty( $data['detail']) || empty( $data['detail']['easteregg'] ) )
+	'content' => ( empty( $data['detail'] ) || empty( $data['detail']['easteregg'] ) )
 		? ''
 		: View::make( 'pages.film.partials.wrap' )
 			->with( 'type', 'easteregg' )

@@ -1,9 +1,19 @@
 <?php
 
-if( empty( $data ) || empty( $data['company'] ) ) return '';
+if( empty( $data ) ) return '';
+$list = array(); $i = 0;
+foreach( $data as $k => $d )
+{
+	if( empty( $d['company_id'] ) ) continue;
+	$k = isset( $d['sortorder'] ) ? $d['sortorder']: $i++;
+	$list[$k] = Manufacturer::link( $d['company_id'] );
+}
 
-?>
-<dl class="film-manufacturer">
-	<dt>Manufacturer:</dt>
-	<dd><?= Company::format_link( $data['company']['stub'], $data['company']['name'] ) ?></dd>
-</dl>
+if( empty( $list ) ) return '';
+sort( $list );
+
+if( empty( $nolabel ) ) : ?>
+<label>Media <?= count( $list ) == 1 ? 'Company' : 'Companies' ?>:</label>
+<?php endif;
+
+print HTML::ul( $list, array( 'html' => true, 'class' => 'list-unstyled film-manufacturer' ) );

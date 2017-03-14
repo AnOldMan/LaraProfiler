@@ -1,3 +1,4 @@
-<div class="overview">
-<?= empty( $data ) ? '' : htmlawed::indent( $data, 1 ) ?>
+<?php if( empty( $data ) ) return ''; ?>
+<div class="film-easteregg">
+<?= HTML::indent( $data, 1 ) ?>
 </div>

@@ -45,26 +45,76 @@ Route::get( 'genre/(:any)', array(
 	}
 ));
 
-Route::get( 'person/(:any)', array(
-	'as' => 'person',
+Route::get( 'role/(:any)', array(
+	'as' => 'role',
 	function( $stub )
 	{
-		if( $results = Person::paginate( $stub ) )
+		if( $results = Role::paginate( $stub ) )
 		{
-			kpr( $results );exit;
+			return View::make( 'shells.main' )
+				->with( 'title', 'LaraProfiler' )
+				->with( 'heading', Person::name_by_stub( $stub ) )
+				->with( 'content', View::make('pages.film.list.paginator')
+					->with( 'paginator', $results )
+				)
+				->render();
 		}
 
 		return Response::error( '404' );
 	}
 ));
 
-Route::get( 'company/(:any)', array(
-	'as' => 'company',
+Route::get( 'credit/(:any)', array(
+	'as' => 'credit',
 	function( $stub )
 	{
-		if( $results = Company::paginate( $stub ) )
+		if( $results = Credit::paginate( $stub ) )
 		{
-			kpr( $results );exit;
+			return View::make( 'shells.main' )
+				->with( 'title', 'LaraProfiler' )
+				->with( 'heading', Person::name_by_stub( $stub ) )
+				->with( 'content', View::make('pages.film.list.paginator')
+					->with( 'paginator', $results )
+				)
+				->render();
+		}
+
+		return Response::error( '404' );
+	}
+));
+
+Route::get( 'studio/(:any)', array(
+	'as' => 'studio',
+	function( $stub )
+	{
+		if( $results = Studio::paginate( $stub ) )
+		{
+			return View::make( 'shells.main' )
+				->with( 'title', 'LaraProfiler' )
+				->with( 'heading', Company::name_by_stub( $stub ) )
+				->with( 'content', View::make('pages.film.list.paginator')
+					->with( 'paginator', $results )
+				)
+				->render();
+		}
+
+		return Response::error( '404' );
+	}
+));
+
+Route::get( 'manufacturer/(:any)', array(
+	'as' => 'manufacturer',
+	function( $stub )
+	{
+		if( $results = Manufacturer::paginate( $stub ) )
+		{
+			return View::make( 'shells.main' )
+				->with( 'title', 'LaraProfiler' )
+				->with( 'heading', Company::name_by_stub( $stub ) )
+				->with( 'content', View::make('pages.film.list.paginator')
+					->with( 'paginator', $results )
+				)
+				->render();
 		}
 
 		return Response::error( '404' );

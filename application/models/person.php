@@ -27,9 +27,54 @@ class Person extends Eloquent {
 		return $this->has_many('Role');
 	}
 
-	public static function paginate( $stub )
+	public static $list = false;
+
+	public static function by_id( $id )
 	{
-		return true;
+		self::eagerload();
+		if( isset( self::$list[$id] ) ) return self::$list[$id]['name'];
+	}
+
+	public static function by_stub( $stub )
+	{
+		self::eagerload();
+		foreach( self::$list as $id => $data )
+		{
+			if( $data['stub'] == $stub ) return $id;
+		}
+	}
+
+	public static function name_by_stub( $stub )
+	{
+		self::eagerload();
+		foreach( self::$list as $id => $data )
+		{
+			if( $data['stub'] == $stub ) return $data['fullname'];
+		}
+	}
+
+	public static function by_name( $name )
+	{
+		self::eagerload();
+		foreach( self::$list as $id => $data )
+		{
+			if( $data['fullname'] == $fullname ) return $id;
+		}
+	}
+
+	private static function eagerload()
+	{
+		if( self::$list === false )
+		{
+			self::$list = Cache::remember('person-all', function(){
+				$return = array();
+				if( $results = Person::all() )
+				{
+					foreach( $results as $o ) $return[$o->id] = array( 'fullname' => $o->fullname, 'birthyear' => $o->birthyear, 'stub' => $o->stub );
+				}
+				return $return;
+			}, 60*24);
+		}
 	}
 
 	public function seoStub()
@@ -41,7 +86,7 @@ class Person extends Eloquent {
 	{
 		if( empty( $this->fullname ) )
 		{
-			$this->fullname = $this->firstname . ' ' . $this->middlename . ' ' . $this->lastname;
+			$this->fullname = htmlawed::implodeClean( ' ', array( $this->firstname, $this->middlename, $this->lastname ) );
 		}
 
 		if( empty( $this->stub ) )
@@ -51,19 +96,21 @@ class Person extends Eloquent {
 
 		parent::save();
 	}
-
-	public static function link( $id )
+	
+	public static function link( $id, $type )
 	{
-		if( $a = self::find( $id ) )
+		self::eagerload();
+		$a = empty( self::$list[$id] ) ? array() : self::$list[$id];
+		if( ! empty( $a['stub'] ) && ! empty( $a['fullname'] ) )
 		{
-			return self::format_link( $a->stub, $a->fullname, $a->birthyear );
+			return self::format_link( $a['stub'],  $a['fullname'],  $a['birthyear'], $type );
 		}
 		return '';
 	}
 
-	public static function format_link( $stub, $name, $birth )
+	public static function format_link( $stub, $name, $birth, $type )
 	{
-		$birth = $birth ? ' <sub>('.$birth.')</sub>' : '';
-		return '<a class="person-link" href="' . URI::to_route( 'person', array( $stub ), false ) . '">' . $name . $birth . '</a>';
+		$birth = $birth ? ' <sub>(' . $birth . ')</sub>' : '';
+		return '<a class="company-link" href="' . URI::to_route( $type, array( $stub ), false ) . '">' . $name . $birth . '</a>';
 	}
 }
